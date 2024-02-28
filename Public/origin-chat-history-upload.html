@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Menu Navigation</title>
+    <link rel="stylesheet" href="style.css"> <!-- Make sure to link to your CSS file -->
+</head>
+<body>
+    <div class="side-menu">
+        <a href="/user-profile">User Profile</a>
+        <a href="/chat-history-upload">Chat History Upload</a>
+        <a href="/clone-creation">Start Creating Clone</a>
+        <a href="/chat-interface">Chat Interface</a>
+    </div>
+    <div class="content">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Chat History Upload Page</title>
+        </head>
+        <body>
+            <h1>Upload Chat History</h1>
+            <form action="/upload-chat-history" method="post" enctype="multipart/form-data">
+                <input type="file" name="chatHistory" required multiple>
+                <button type="submit">Upload Chat History</button>
+            </form>
+        </body>
+    </div>
+</body>
+</html>

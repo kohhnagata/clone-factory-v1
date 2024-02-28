@@ -1,0 +1,2923 @@
+{
+ "name": "Rohit",
+ "type": "personal_chat",
+ "id": 1450046028,
+ "messages": [
+  {
+   "id": 8680,
+   "type": "message",
+   "date": "2022-07-27T12:25:27",
+   "date_unixtime": "1658935527",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Hey man",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hey man"
+    }
+   ]
+  },
+  {
+   "id": 8681,
+   "type": "message",
+   "date": "2022-07-27T12:25:34",
+   "date_unixtime": "1658935534",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Rohit here",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Rohit here"
+    }
+   ]
+  },
+  {
+   "id": 8682,
+   "type": "message",
+   "date": "2022-07-27T12:25:56",
+   "date_unixtime": "1658935556",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "heyhey",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "heyhey"
+    }
+   ]
+  },
+  {
+   "id": 8683,
+   "type": "message",
+   "date": "2022-07-27T12:26:04",
+   "date_unixtime": "1658935564",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "thanks man!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "thanks man!"
+    }
+   ]
+  },
+  {
+   "id": 8684,
+   "type": "message",
+   "date": "2022-07-27T12:26:22",
+   "date_unixtime": "1658935582",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "hey rohit",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "hey rohit"
+    }
+   ]
+  },
+  {
+   "id": 8685,
+   "type": "message",
+   "date": "2022-07-27T12:27:01",
+   "date_unixtime": "1658935621",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "dont you wanna build senate v1.1 together maybe just for a week or 2?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "dont you wanna build senate v1.1 together maybe just for a week or 2?"
+    }
+   ]
+  },
+  {
+   "id": 8686,
+   "type": "message",
+   "date": "2022-07-27T12:27:09",
+   "date_unixtime": "1658935629",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "we really loved wokring with u",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "we really loved wokring with u"
+    }
+   ]
+  },
+  {
+   "id": 8687,
+   "type": "message",
+   "date": "2022-07-27T12:27:17",
+   "date_unixtime": "1658935637",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "we will onboard some devs but",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "we will onboard some devs but"
+    }
+   ]
+  },
+  {
+   "id": 8688,
+   "type": "message",
+   "date": "2022-07-27T12:27:53",
+   "date_unixtime": "1658935673",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "i like your enthusiasm and reliability",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "i like your enthusiasm and reliability"
+    }
+   ]
+  },
+  {
+   "id": 8691,
+   "type": "message",
+   "date": "2022-07-27T12:30:21",
+   "date_unixtime": "1658935821",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "maybe lets chat once, wanna connect with my co founder",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "maybe lets chat once, wanna connect with my co founder"
+    }
+   ]
+  },
+  {
+   "id": 8697,
+   "type": "message",
+   "date": "2022-07-27T12:35:52",
+   "date_unixtime": "1658936152",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Man, I am really occupied. Don't wanna commit to something I won't be able to give time",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Man, I am really occupied. Don't wanna commit to something I won't be able to give time"
+    }
+   ]
+  },
+  {
+   "id": 8698,
+   "type": "message",
+   "date": "2022-07-27T12:37:26",
+   "date_unixtime": "1658936246",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "oh icic",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "oh icic"
+    }
+   ]
+  },
+  {
+   "id": 8699,
+   "type": "message",
+   "date": "2022-07-27T12:38:09",
+   "date_unixtime": "1658936289",
+   "edited": "2022-07-27T12:38:27",
+   "edited_unixtime": "1658936307",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": [
+    "here is our roadmap and we are chatting with paladin to get a grant too. in case if you are concerns about the comp\n\n",
+    {
+     "type": "link",
+     "text": "https://kohei-eth.notion.site/Roadmap-Milestones-ac1004e84eae485d85ef74297aa7e582"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "here is our roadmap and we are chatting with paladin to get a grant too. in case if you are concerns about the comp\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://kohei-eth.notion.site/Roadmap-Milestones-ac1004e84eae485d85ef74297aa7e582"
+    }
+   ]
+  },
+  {
+   "id": 8700,
+   "type": "message",
+   "date": "2022-07-27T12:39:11",
+   "date_unixtime": "1658936351",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "just wanted to express that we had really postive impression and experience working with u",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "just wanted to express that we had really postive impression and experience working with u"
+    }
+   ]
+  },
+  {
+   "id": 8701,
+   "type": "message",
+   "date": "2022-07-27T12:39:31",
+   "date_unixtime": "1658936371",
+   "edited": "2022-07-27T12:39:37",
+   "edited_unixtime": "1658936377",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "haha",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "haha"
+    }
+   ]
+  },
+  {
+   "id": 8702,
+   "type": "message",
+   "date": "2022-07-27T12:40:18",
+   "date_unixtime": "1658936418",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Thanks man. Will definitely stay in contact and help wherever I can",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thanks man. Will definitely stay in contact and help wherever I can"
+    }
+   ]
+  },
+  {
+   "id": 8703,
+   "type": "message",
+   "date": "2022-07-27T12:40:44",
+   "date_unixtime": "1658936444",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "def! let me know if i can help with u too",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "def! let me know if i can help with u too"
+    }
+   ]
+  },
+  {
+   "id": 8704,
+   "type": "message",
+   "date": "2022-07-27T12:42:59",
+   "date_unixtime": "1658936579",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Definitely man",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Definitely man"
+    }
+   ]
+  },
+  {
+   "id": 8707,
+   "type": "message",
+   "date": "2022-07-27T12:47:33",
+   "date_unixtime": "1658936853",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "hey rohit",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "hey rohit"
+    }
+   ]
+  },
+  {
+   "id": 8708,
+   "type": "message",
+   "date": "2022-07-27T12:47:40",
+   "date_unixtime": "1658936860",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "can i ask u one thing",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "can i ask u one thing"
+    }
+   ]
+  },
+  {
+   "id": 8709,
+   "type": "message",
+   "date": "2022-07-27T12:54:39",
+   "date_unixtime": "1658937279",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Ya",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ya"
+    }
+   ]
+  },
+  {
+   "id": 14160,
+   "type": "message",
+   "date": "2022-10-04T16:08:18",
+   "date_unixtime": "1664910498",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Hey",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hey"
+    }
+   ]
+  },
+  {
+   "id": 14161,
+   "type": "message",
+   "date": "2022-10-04T16:09:29",
+   "date_unixtime": "1664910569",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Heyhey",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Heyhey"
+    }
+   ]
+  },
+  {
+   "id": 14162,
+   "type": "message",
+   "date": "2022-10-04T16:09:52",
+   "date_unixtime": "1664910592",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "How long r u gonna be in bogota?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How long r u gonna be in bogota?"
+    }
+   ]
+  },
+  {
+   "id": 14163,
+   "type": "message",
+   "date": "2022-10-04T16:09:55",
+   "date_unixtime": "1664910595",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "I'll be there from 7th to 15th",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I'll be there from 7th to 15th"
+    }
+   ]
+  },
+  {
+   "id": 14202,
+   "type": "message",
+   "date": "2022-10-04T23:43:22",
+   "date_unixtime": "1664937802",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "nice!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "nice!"
+    }
+   ]
+  },
+  {
+   "id": 14203,
+   "type": "message",
+   "date": "2022-10-04T23:43:32",
+   "date_unixtime": "1664937812",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "I'll there from 9-15 too",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I'll there from 9-15 too"
+    }
+   ]
+  },
+  {
+   "id": 14204,
+   "type": "message",
+   "date": "2022-10-04T23:43:58",
+   "date_unixtime": "1664937838",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "lets grab coffee or nice food in bogota",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "lets grab coffee or nice food in bogota"
+    }
+   ]
+  },
+  {
+   "id": 14205,
+   "type": "message",
+   "date": "2022-10-04T23:44:10",
+   "date_unixtime": "1664937850",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😁"
+    }
+   ]
+  },
+  {
+   "id": 14206,
+   "type": "message",
+   "date": "2022-10-04T23:48:41",
+   "date_unixtime": "1664938121",
+   "edited": "2022-10-04T23:49:29",
+   "edited_unixtime": "1664938169",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Sure man",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sure man"
+    }
+   ]
+  },
+  {
+   "id": 14207,
+   "type": "message",
+   "date": "2022-10-04T23:49:51",
+   "date_unixtime": "1664938191",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "alight",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "alight"
+    }
+   ]
+  },
+  {
+   "id": 14208,
+   "type": "message",
+   "date": "2022-10-04T23:49:53",
+   "date_unixtime": "1664938193",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "lmk once you arrive in bogota!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "lmk once you arrive in bogota!"
+    }
+   ]
+  },
+  {
+   "id": 14209,
+   "type": "message",
+   "date": "2022-10-04T23:50:19",
+   "date_unixtime": "1664938219",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Cool bro!!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Cool bro!!"
+    }
+   ]
+  },
+  {
+   "id": 14800,
+   "type": "message",
+   "date": "2022-10-07T16:15:38",
+   "date_unixtime": "1665170138",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": [
+    "Diego (The Defiant), [Oct 7, 2022 11:50:36]:\n...https://",
+    {
+     "type": "link",
+     "text": "www.eventbrite.com/e/kleros-rooftop-night-bogota-tickets-435738675107"
+    },
+    "\n\nPassword: WELOVETHEPARTIES"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Diego (The Defiant), [Oct 7, 2022 11:50:36]:\n...https://"
+    },
+    {
+     "type": "link",
+     "text": "www.eventbrite.com/e/kleros-rooftop-night-bogota-tickets-435738675107"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nPassword: WELOVETHEPARTIES"
+    }
+   ]
+  },
+  {
+   "id": 14811,
+   "type": "message",
+   "date": "2022-10-07T16:26:34",
+   "date_unixtime": "1665170794",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Will be there bro",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Will be there bro"
+    }
+   ]
+  },
+  {
+   "id": 14812,
+   "type": "message",
+   "date": "2022-10-07T16:27:30",
+   "date_unixtime": "1665170850",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "just sharing some alpha",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "just sharing some alpha"
+    }
+   ]
+  },
+  {
+   "id": 14813,
+   "type": "message",
+   "date": "2022-10-07T16:27:36",
+   "date_unixtime": "1665170856",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "no pressure mate",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "no pressure mate"
+    }
+   ]
+  },
+  {
+   "id": 14814,
+   "type": "message",
+   "date": "2022-10-07T16:27:54",
+   "date_unixtime": "1665170874",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "anyway well meet lol",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "anyway well meet lol"
+    }
+   ]
+  },
+  {
+   "id": 14815,
+   "type": "message",
+   "date": "2022-10-07T16:27:56",
+   "date_unixtime": "1665170876",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Building something in this hackathon?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Building something in this hackathon?"
+    }
+   ]
+  },
+  {
+   "id": 14816,
+   "type": "message",
+   "date": "2022-10-07T16:28:31",
+   "date_unixtime": "1665170911",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "nah im died from ethonline",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "nah im died from ethonline"
+    }
+   ]
+  },
+  {
+   "id": 14817,
+   "type": "message",
+   "date": "2022-10-07T16:28:32",
+   "date_unixtime": "1665170912",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "haha",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "haha"
+    }
+   ]
+  },
+  {
+   "id": 14818,
+   "type": "message",
+   "date": "2022-10-07T16:28:43",
+   "date_unixtime": "1665170923",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "😂😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😂😂"
+    }
+   ]
+  },
+  {
+   "id": 14819,
+   "type": "message",
+   "date": "2022-10-07T16:28:53",
+   "date_unixtime": "1665170933",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "I didn't participate. Didn't get time",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I didn't participate. Didn't get time"
+    }
+   ]
+  },
+  {
+   "id": 14820,
+   "type": "message",
+   "date": "2022-10-07T16:29:02",
+   "date_unixtime": "1665170942",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "one month hackathon is",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "one month hackathon is"
+    }
+   ]
+  },
+  {
+   "id": 14821,
+   "type": "message",
+   "date": "2022-10-07T16:29:04",
+   "date_unixtime": "1665170944",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "really",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "really"
+    }
+   ]
+  },
+  {
+   "id": 14822,
+   "type": "message",
+   "date": "2022-10-07T16:29:06",
+   "date_unixtime": "1665170946",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "something",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "something"
+    }
+   ]
+  },
+  {
+   "id": 14823,
+   "type": "message",
+   "date": "2022-10-07T16:29:07",
+   "date_unixtime": "1665170947",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "lol",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "lol"
+    }
+   ]
+  },
+  {
+   "id": 14824,
+   "type": "message",
+   "date": "2022-10-07T16:29:14",
+   "date_unixtime": "1665170954",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "fun but kill u",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "fun but kill u"
+    }
+   ]
+  },
+  {
+   "id": 14825,
+   "type": "message",
+   "date": "2022-10-07T16:29:17",
+   "date_unixtime": "1665170957",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Obviously man",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Obviously man"
+    }
+   ]
+  },
+  {
+   "id": 14826,
+   "type": "message",
+   "date": "2022-10-07T16:29:24",
+   "date_unixtime": "1665170964",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "lmao",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "lmao"
+    }
+   ]
+  },
+  {
+   "id": 14827,
+   "type": "message",
+   "date": "2022-10-07T16:29:26",
+   "date_unixtime": "1665170966",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 14824,
+   "text": "I am sure of it",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I am sure of it"
+    }
+   ]
+  },
+  {
+   "id": 14828,
+   "type": "message",
+   "date": "2022-10-07T16:29:46",
+   "date_unixtime": "1665170986",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "But the results should be good",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "But the results should be good"
+    }
+   ]
+  },
+  {
+   "id": 14829,
+   "type": "message",
+   "date": "2022-10-07T16:30:39",
+   "date_unixtime": "1665171039",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "we didnt get in to finalist so hmm",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "we didnt get in to finalist so hmm"
+    }
+   ]
+  },
+  {
+   "id": 14830,
+   "type": "message",
+   "date": "2022-10-07T16:30:52",
+   "date_unixtime": "1665171052",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "lets kill it next time",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "lets kill it next time"
+    }
+   ]
+  },
+  {
+   "id": 14831,
+   "type": "message",
+   "date": "2022-10-07T16:30:55",
+   "date_unixtime": "1665171055",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Still a good experience",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Still a good experience"
+    }
+   ]
+  },
+  {
+   "id": 14832,
+   "type": "message",
+   "date": "2022-10-07T16:30:59",
+   "date_unixtime": "1665171059",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 14830,
+   "text": "Yess",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yess"
+    }
+   ]
+  },
+  {
+   "id": 14833,
+   "type": "message",
+   "date": "2022-10-07T16:31:03",
+   "date_unixtime": "1665171063",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "thats true",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "thats true"
+    }
+   ]
+  },
+  {
+   "id": 14834,
+   "type": "message",
+   "date": "2022-10-07T16:31:06",
+   "date_unixtime": "1665171066",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "This time building for SSV",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "This time building for SSV"
+    }
+   ]
+  },
+  {
+   "id": 14835,
+   "type": "message",
+   "date": "2022-10-07T16:31:15",
+   "date_unixtime": "1665171075",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 14834,
+   "text": "Lets see how it goes",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Lets see how it goes"
+    }
+   ]
+  },
+  {
+   "id": 14836,
+   "type": "message",
+   "date": "2022-10-07T16:31:21",
+   "date_unixtime": "1665171081",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "ssv?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ssv?"
+    }
+   ]
+  },
+  {
+   "id": 14837,
+   "type": "message",
+   "date": "2022-10-07T16:31:33",
+   "date_unixtime": "1665171093",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Secret shared validator",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Secret shared validator"
+    }
+   ]
+  },
+  {
+   "id": 14838,
+   "type": "message",
+   "date": "2022-10-07T16:31:50",
+   "date_unixtime": "1665171110",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Distributed key for Ethereum validators",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Distributed key for Ethereum validators"
+    }
+   ]
+  },
+  {
+   "id": 14839,
+   "type": "message",
+   "date": "2022-10-07T16:32:11",
+   "date_unixtime": "1665171131",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Integrating their solution in liquid staking solutions",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Integrating their solution in liquid staking solutions"
+    }
+   ]
+  },
+  {
+   "id": 14840,
+   "type": "message",
+   "date": "2022-10-07T16:32:23",
+   "date_unixtime": "1665171143",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "hm icic",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "hm icic"
+    }
+   ]
+  },
+  {
+   "id": 14841,
+   "type": "message",
+   "date": "2022-10-07T16:32:34",
+   "date_unixtime": "1665171154",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "i have no idea around that space",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "i have no idea around that space"
+    }
+   ]
+  },
+  {
+   "id": 14842,
+   "type": "message",
+   "date": "2022-10-07T16:32:39",
+   "date_unixtime": "1665171159",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "wanna learn more",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "wanna learn more"
+    }
+   ]
+  },
+  {
+   "id": 14843,
+   "type": "message",
+   "date": "2022-10-07T16:32:53",
+   "date_unixtime": "1665171173",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Cool cool",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Cool cool"
+    }
+   ]
+  },
+  {
+   "id": 14844,
+   "type": "message",
+   "date": "2022-10-07T16:33:00",
+   "date_unixtime": "1665171180",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "have fun at eth bogota!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "have fun at eth bogota!"
+    }
+   ]
+  },
+  {
+   "id": 14845,
+   "type": "message",
+   "date": "2022-10-07T16:33:06",
+   "date_unixtime": "1665171186",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "and get into finalist",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "and get into finalist"
+    }
+   ]
+  },
+  {
+   "id": 14846,
+   "type": "message",
+   "date": "2022-10-07T16:33:07",
+   "date_unixtime": "1665171187",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "24 hours flight man",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "24 hours flight man"
+    }
+   ]
+  },
+  {
+   "id": 14847,
+   "type": "message",
+   "date": "2022-10-07T16:33:09",
+   "date_unixtime": "1665171189",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "!"
+    }
+   ]
+  },
+  {
+   "id": 14848,
+   "type": "message",
+   "date": "2022-10-07T16:33:15",
+   "date_unixtime": "1665171195",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 14845,
+   "text": "Definitely",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Definitely"
+    }
+   ]
+  },
+  {
+   "id": 14849,
+   "type": "message",
+   "date": "2022-10-07T16:33:20",
+   "date_unixtime": "1665171200",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Would try for this",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Would try for this"
+    }
+   ]
+  },
+  {
+   "id": 14850,
+   "type": "message",
+   "date": "2022-10-07T16:33:25",
+   "date_unixtime": "1665171205",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "👍",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 14851,
+   "type": "message",
+   "date": "2022-10-07T16:33:35",
+   "date_unixtime": "1665171215",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "oh let me share the strategy",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "oh let me share the strategy"
+    }
+   ]
+  },
+  {
+   "id": 14852,
+   "type": "message",
+   "date": "2022-10-07T16:33:38",
+   "date_unixtime": "1665171218",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "for winning hackathon",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "for winning hackathon"
+    }
+   ]
+  },
+  {
+   "id": 14853,
+   "type": "message",
+   "date": "2022-10-07T16:33:45",
+   "date_unixtime": "1665171225",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "i summarized for last one",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "i summarized for last one"
+    }
+   ]
+  },
+  {
+   "id": 14854,
+   "type": "message",
+   "date": "2022-10-07T16:33:59",
+   "date_unixtime": "1665171239",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Please do",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Please do"
+    }
+   ]
+  },
+  {
+   "id": 14855,
+   "type": "message",
+   "date": "2022-10-07T16:34:25",
+   "date_unixtime": "1665171265",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": [
+    {
+     "type": "text_link",
+     "text": "https://kohei-eth.notion.site/2021-s-Finalists-Analysis-00c064f123884f88bd17b0e9bd304690",
+     "href": "https://kohei-eth.notion.site/2021-s-Finalists-Analysis-00c064f123884f88bd17b0e9bd304690"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "text_link",
+     "text": "https://kohei-eth.notion.site/2021-s-Finalists-Analysis-00c064f123884f88bd17b0e9bd304690",
+     "href": "https://kohei-eth.notion.site/2021-s-Finalists-Analysis-00c064f123884f88bd17b0e9bd304690"
+    }
+   ]
+  },
+  {
+   "id": 14856,
+   "type": "message",
+   "date": "2022-10-07T16:35:11",
+   "date_unixtime": "1665171311",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": [
+    "this ",
+    {
+     "type": "link",
+     "text": "https://senatelabs.notion.site/Strategy-to-win-ETHOnline-2022-finalist-f0b16b721d5e45d3b6a8bd5c7fb0f102"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "this "
+    },
+    {
+     "type": "link",
+     "text": "https://senatelabs.notion.site/Strategy-to-win-ETHOnline-2022-finalist-f0b16b721d5e45d3b6a8bd5c7fb0f102"
+    }
+   ]
+  },
+  {
+   "id": 14857,
+   "type": "message",
+   "date": "2022-10-07T16:37:30",
+   "date_unixtime": "1665171450",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Thanks bro",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thanks bro"
+    }
+   ]
+  },
+  {
+   "id": 15736,
+   "type": "message",
+   "date": "2022-10-12T11:58:04",
+   "date_unixtime": "1665586684",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Hey bro",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hey bro"
+    }
+   ]
+  },
+  {
+   "id": 15737,
+   "type": "message",
+   "date": "2022-10-12T11:58:23",
+   "date_unixtime": "1665586703",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Heyyy",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Heyyy"
+    }
+   ]
+  },
+  {
+   "id": 15738,
+   "type": "message",
+   "date": "2022-10-12T11:58:36",
+   "date_unixtime": "1665586716",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "R u at devcon now?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "R u at devcon now?"
+    }
+   ]
+  },
+  {
+   "id": 15739,
+   "type": "message",
+   "date": "2022-10-12T11:58:40",
+   "date_unixtime": "1665586720",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Attending the conference?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Attending the conference?"
+    }
+   ]
+  },
+  {
+   "id": 15740,
+   "type": "message",
+   "date": "2022-10-12T11:58:48",
+   "date_unixtime": "1665586728",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 15738,
+   "text": "Yess",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yess"
+    }
+   ]
+  },
+  {
+   "id": 15741,
+   "type": "message",
+   "date": "2022-10-12T11:59:28",
+   "date_unixtime": "1665586768",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Okay! Will be there soon so let’s meet upp",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Okay! Will be there soon so let’s meet upp"
+    }
+   ]
+  },
+  {
+   "id": 15742,
+   "type": "message",
+   "date": "2022-10-12T11:59:42",
+   "date_unixtime": "1665586782",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Ground floor?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ground floor?"
+    }
+   ]
+  },
+  {
+   "id": 15743,
+   "type": "message",
+   "date": "2022-10-12T11:59:44",
+   "date_unixtime": "1665586784",
+   "edited": "2022-10-12T11:59:48",
+   "edited_unixtime": "1665586788",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Sure!!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sure!!"
+    }
+   ]
+  },
+  {
+   "id": 15744,
+   "type": "message",
+   "date": "2022-10-12T11:59:56",
+   "date_unixtime": "1665586796",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Cu soon",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Cu soon"
+    }
+   ]
+  },
+  {
+   "id": 15745,
+   "type": "message",
+   "date": "2022-10-12T12:00:09",
+   "date_unixtime": "1665586809",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 15742,
+   "text": "Ping me once you are here",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ping me once you are here"
+    }
+   ]
+  },
+  {
+   "id": 15746,
+   "type": "message",
+   "date": "2022-10-12T12:01:17",
+   "date_unixtime": "1665586877",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Sure",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sure"
+    }
+   ]
+  },
+  {
+   "id": 15747,
+   "type": "message",
+   "date": "2022-10-12T12:02:25",
+   "date_unixtime": "1665586945",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "In 2min",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "In 2min"
+    }
+   ]
+  },
+  {
+   "id": 15748,
+   "type": "message",
+   "date": "2022-10-12T12:05:09",
+   "date_unixtime": "1665587109",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Oh",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Oh"
+    }
+   ]
+  },
+  {
+   "id": 15749,
+   "type": "message",
+   "date": "2022-10-12T12:05:23",
+   "date_unixtime": "1665587123",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "There is a huge line at the entrance lol",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "There is a huge line at the entrance lol"
+    }
+   ]
+  },
+  {
+   "id": 15750,
+   "type": "message",
+   "date": "2022-10-12T12:05:31",
+   "date_unixtime": "1665587131",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "😂😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😂😂"
+    }
+   ]
+  },
+  {
+   "id": 15752,
+   "type": "message",
+   "date": "2022-10-12T12:05:50",
+   "date_unixtime": "1665587150",
+   "edited": "2022-10-12T12:06:19",
+   "edited_unixtime": "1665587179",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Ping me once you have entered then",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ping me once you have entered then"
+    }
+   ]
+  },
+  {
+   "id": 15754,
+   "type": "message",
+   "date": "2022-10-12T12:07:59",
+   "date_unixtime": "1665587279",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "I’m here",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’m here"
+    }
+   ]
+  },
+  {
+   "id": 15755,
+   "type": "message",
+   "date": "2022-10-12T12:08:01",
+   "date_unixtime": "1665587281",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Getting some drink now",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Getting some drink now"
+    }
+   ]
+  },
+  {
+   "id": 15756,
+   "type": "message",
+   "date": "2022-10-12T12:09:27",
+   "date_unixtime": "1665587367",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 15757,
+   "type": "message",
+   "date": "2022-10-12T12:09:29",
+   "date_unixtime": "1665587369",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Coming down",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Coming down"
+    }
+   ]
+  },
+  {
+   "id": 15758,
+   "type": "message",
+   "date": "2022-10-12T12:09:38",
+   "date_unixtime": "1665587378",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "I’ll be here",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’ll be here"
+    }
+   ]
+  },
+  {
+   "id": 15759,
+   "type": "message",
+   "date": "2022-10-12T12:09:51",
+   "date_unixtime": "1665587391",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Next to the bar on the corner",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Next to the bar on the corner"
+    }
+   ]
+  },
+  {
+   "id": 15760,
+   "type": "message",
+   "date": "2022-10-12T12:11:02",
+   "date_unixtime": "1665587462",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "I am wearing a blue jeans and a shirt",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I am wearing a blue jeans and a shirt"
+    }
+   ]
+  },
+  {
+   "id": 22809,
+   "type": "message",
+   "date": "2023-03-13T09:04:32",
+   "date_unixtime": "1678709072",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Congratulations on launching senate",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Congratulations on launching senate"
+    }
+   ]
+  },
+  {
+   "id": 22810,
+   "type": "message",
+   "date": "2023-03-13T09:04:58",
+   "date_unixtime": "1678709098",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "We haven't talked in a while. Would love to catch-up sometime",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "We haven't talked in a while. Would love to catch-up sometime"
+    }
+   ]
+  },
+  {
+   "id": 22816,
+   "type": "message",
+   "date": "2023-03-13T12:55:56",
+   "date_unixtime": "1678722956",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "heyhey",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "heyhey"
+    }
+   ]
+  },
+  {
+   "id": 22817,
+   "type": "message",
+   "date": "2023-03-13T12:56:07",
+   "date_unixtime": "1678722967",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "its been a while",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "its been a while"
+    }
+   ]
+  },
+  {
+   "id": 22818,
+   "type": "message",
+   "date": "2023-03-13T12:56:26",
+   "date_unixtime": "1678722986",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "we started dis together at ethcc but came this far haha",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "we started dis together at ethcc but came this far haha"
+    }
+   ]
+  },
+  {
+   "id": 22819,
+   "type": "message",
+   "date": "2023-03-13T12:56:34",
+   "date_unixtime": "1678722994",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "sure",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "sure"
+    }
+   ]
+  },
+  {
+   "id": 22820,
+   "type": "message",
+   "date": "2023-03-13T12:57:01",
+   "date_unixtime": "1678723021",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "this week is bit tough so next week would be better for me",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "this week is bit tough so next week would be better for me"
+    }
+   ]
+  },
+  {
+   "id": 22821,
+   "type": "message",
+   "date": "2023-03-13T12:57:34",
+   "date_unixtime": "1678723054",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 22818,
+   "text": "Ya man !!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ya man !!"
+    }
+   ]
+  },
+  {
+   "id": 22822,
+   "type": "message",
+   "date": "2023-03-13T12:57:37",
+   "date_unixtime": "1678723057",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 22820,
+   "text": "Sure",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sure"
+    }
+   ]
+  },
+  {
+   "id": 22823,
+   "type": "message",
+   "date": "2023-03-13T12:57:57",
+   "date_unixtime": "1678723077",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "I am working on bringing liquid staking on layer 2",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I am working on bringing liquid staking on layer 2"
+    }
+   ]
+  },
+  {
+   "id": 22833,
+   "type": "message",
+   "date": "2023-03-14T00:52:35",
+   "date_unixtime": "1678765955",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "oh op or starknet?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "oh op or starknet?"
+    }
+   ]
+  },
+  {
+   "id": 22842,
+   "type": "message",
+   "date": "2023-03-14T01:18:45",
+   "date_unixtime": "1678767525",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Op for now",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Op for now"
+    }
+   ]
+  },
+  {
+   "id": 22843,
+   "type": "message",
+   "date": "2023-03-14T01:18:57",
+   "date_unixtime": "1678767537",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Will move to other layer2s after that",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Will move to other layer2s after that"
+    }
+   ]
+  },
+  {
+   "id": 22970,
+   "type": "message",
+   "date": "2023-03-15T12:13:19",
+   "date_unixtime": "1678893199",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "niceee",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "niceee"
+    }
+   ]
+  },
+  {
+   "id": 22971,
+   "type": "message",
+   "date": "2023-03-15T12:13:37",
+   "date_unixtime": "1678893217",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "op is a nice place to kick things off",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "op is a nice place to kick things off"
+    }
+   ]
+  },
+  {
+   "id": 22974,
+   "type": "message",
+   "date": "2023-03-15T12:18:42",
+   "date_unixtime": "1678893522",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "That's what we thought",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "That's what we thought"
+    }
+   ]
+  },
+  {
+   "id": 22977,
+   "type": "message",
+   "date": "2023-03-15T13:19:32",
+   "date_unixtime": "1678897172",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Are you attending eth dubai?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Are you attending eth dubai?"
+    }
+   ]
+  },
+  {
+   "id": 22982,
+   "type": "message",
+   "date": "2023-03-16T00:06:07",
+   "date_unixtime": "1678935967",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "nope!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "nope!"
+    }
+   ]
+  },
+  {
+   "id": 37318,
+   "type": "message",
+   "date": "2023-07-31T06:07:50",
+   "date_unixtime": "1690794470",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Hey!!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hey!!"
+    }
+   ]
+  },
+  {
+   "id": 37320,
+   "type": "message",
+   "date": "2023-07-31T06:08:40",
+   "date_unixtime": "1690794520",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "How are you doing? Hows your venture going on?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How are you doing? Hows your venture going on?"
+    }
+   ]
+  },
+  {
+   "id": 37342,
+   "type": "message",
+   "date": "2023-07-31T11:22:13",
+   "date_unixtime": "1690813333",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "pretty good!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "pretty good!"
+    }
+   ]
+  },
+  {
+   "id": 37343,
+   "type": "message",
+   "date": "2023-07-31T11:22:25",
+   "date_unixtime": "1690813345",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "just raised our preseed round kkk",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "just raised our preseed round kkk"
+    }
+   ]
+  },
+  {
+   "id": 37344,
+   "type": "message",
+   "date": "2023-07-31T11:22:27",
+   "date_unixtime": "1690813347",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "wby",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "wby"
+    }
+   ]
+  },
+  {
+   "id": 37345,
+   "type": "message",
+   "date": "2023-07-31T11:22:44",
+   "date_unixtime": "1690813364",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Thats awesome",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thats awesome"
+    }
+   ]
+  },
+  {
+   "id": 37346,
+   "type": "message",
+   "date": "2023-07-31T11:23:05",
+   "date_unixtime": "1690813385",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "I also started something of my own",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I also started something of my own"
+    }
+   ]
+  },
+  {
+   "id": 37347,
+   "type": "message",
+   "date": "2023-07-31T11:23:14",
+   "date_unixtime": "1690813394",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Got a grant from SSV network",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Got a grant from SSV network"
+    }
+   ]
+  },
+  {
+   "id": 37348,
+   "type": "message",
+   "date": "2023-07-31T11:23:57",
+   "date_unixtime": "1690813437",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Needed some advice on the investment thing",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Needed some advice on the investment thing"
+    }
+   ]
+  },
+  {
+   "id": 37680,
+   "type": "message",
+   "date": "2023-08-06T08:42:27",
+   "date_unixtime": "1691322147",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "congrats rohit!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "congrats rohit!"
+    }
+   ]
+  },
+  {
+   "id": 37681,
+   "type": "message",
+   "date": "2023-08-06T08:43:05",
+   "date_unixtime": "1691322185",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "sorry im still finalizing preseed to secure all the committed funds so bit slow response these days",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "sorry im still finalizing preseed to secure all the committed funds so bit slow response these days"
+    }
+   ]
+  },
+  {
+   "id": 37682,
+   "type": "message",
+   "date": "2023-08-06T08:43:20",
+   "date_unixtime": "1691322200",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "That's understandable",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "That's understandable"
+    }
+   ]
+  },
+  {
+   "id": 37683,
+   "type": "message",
+   "date": "2023-08-06T08:43:38",
+   "date_unixtime": "1691322218",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "It takes a lot of time when you are working on your own idea",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It takes a lot of time when you are working on your own idea"
+    }
+   ]
+  },
+  {
+   "id": 37684,
+   "type": "message",
+   "date": "2023-08-06T08:43:40",
+   "date_unixtime": "1691322220",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "im trying to finish all by the mid of this months so happy to share my learning after that",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "im trying to finish all by the mid of this months so happy to share my learning after that"
+    }
+   ]
+  },
+  {
+   "id": 37685,
+   "type": "message",
+   "date": "2023-08-06T08:43:54",
+   "date_unixtime": "1691322234",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 37684,
+   "text": "Sure man!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sure man!"
+    }
+   ]
+  },
+  {
+   "id": 37686,
+   "type": "message",
+   "date": "2023-08-06T08:44:04",
+   "date_unixtime": "1691322244",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "cool",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "cool"
+    }
+   ]
+  },
+  {
+   "id": 37687,
+   "type": "message",
+   "date": "2023-08-06T08:44:06",
+   "date_unixtime": "1691322246",
+   "edited": "2023-08-06T08:44:16",
+   "edited_unixtime": "1691322256",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Best of luck with your funding",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Best of luck with your funding"
+    }
+   ]
+  },
+  {
+   "id": 40455,
+   "type": "message",
+   "date": "2023-10-03T14:28:21",
+   "date_unixtime": "1696354101",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "heyhey",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "heyhey"
+    }
+   ]
+  },
+  {
+   "id": 40456,
+   "type": "message",
+   "date": "2023-10-03T14:28:35",
+   "date_unixtime": "1696354115",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "took a while but finally secured most of funds",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "took a while but finally secured most of funds"
+    }
+   ]
+  },
+  {
+   "id": 40457,
+   "type": "message",
+   "date": "2023-10-03T14:28:48",
+   "date_unixtime": "1696354128",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "happy to help out your raise if i can!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "happy to help out your raise if i can!"
+    }
+   ]
+  },
+  {
+   "id": 40472,
+   "type": "message",
+   "date": "2023-10-03T15:12:03",
+   "date_unixtime": "1696356723",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Thanks bro",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thanks bro"
+    }
+   ]
+  },
+  {
+   "id": 40473,
+   "type": "message",
+   "date": "2023-10-03T15:12:29",
+   "date_unixtime": "1696356749",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Let's schedule a call sometime this week",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Let's schedule a call sometime this week"
+    }
+   ]
+  },
+  {
+   "id": 40483,
+   "type": "message",
+   "date": "2023-10-03T20:46:15",
+   "date_unixtime": "1696376775",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "sure",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "sure"
+    }
+   ]
+  },
+  {
+   "id": 40484,
+   "type": "message",
+   "date": "2023-10-03T20:46:21",
+   "date_unixtime": "1696376781",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "find your good time here",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "find your good time here"
+    }
+   ]
+  },
+  {
+   "id": 40485,
+   "type": "message",
+   "date": "2023-10-03T20:46:41",
+   "date_unixtime": "1696376801",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://cal.com/kohei-senatelabs/30min"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://cal.com/kohei-senatelabs/30min"
+    }
+   ]
+  },
+  {
+   "id": 40486,
+   "type": "message",
+   "date": "2023-10-03T23:33:59",
+   "date_unixtime": "1696386839",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Booked a time for today",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Booked a time for today"
+    }
+   ]
+  },
+  {
+   "id": 40502,
+   "type": "message",
+   "date": "2023-10-04T13:02:20",
+   "date_unixtime": "1696435340",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Hey bro,\nJoining the call??",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hey bro,\nJoining the call??"
+    }
+   ]
+  },
+  {
+   "id": 40503,
+   "type": "message",
+   "date": "2023-10-04T13:02:47",
+   "date_unixtime": "1696435367",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "my bad",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "my bad"
+    }
+   ]
+  },
+  {
+   "id": 40504,
+   "type": "message",
+   "date": "2023-10-04T13:02:55",
+   "date_unixtime": "1696435375",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "just noticed the slot",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "just noticed the slot"
+    }
+   ]
+  },
+  {
+   "id": 40505,
+   "type": "message",
+   "date": "2023-10-04T13:02:58",
+   "date_unixtime": "1696435378",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "im comin",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "im comin"
+    }
+   ]
+  },
+  {
+   "id": 40506,
+   "type": "message",
+   "date": "2023-10-04T13:03:06",
+   "date_unixtime": "1696435386",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Cool cool",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Cool cool"
+    }
+   ]
+  },
+  {
+   "id": 47154,
+   "type": "message",
+   "date": "2024-02-19T05:55:26",
+   "date_unixtime": "1708332926",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Hey bro!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hey bro!"
+    }
+   ]
+  },
+  {
+   "id": 47155,
+   "type": "message",
+   "date": "2024-02-19T05:55:35",
+   "date_unixtime": "1708332935",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "How's it going?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How's it going?"
+    }
+   ]
+  },
+  {
+   "id": 47171,
+   "type": "message",
+   "date": "2024-02-20T09:20:26",
+   "date_unixtime": "1708431626",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "yo",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "yo"
+    }
+   ]
+  },
+  {
+   "id": 47172,
+   "type": "message",
+   "date": "2024-02-20T09:20:33",
+   "date_unixtime": "1708431633",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "doing good",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "doing good"
+    }
+   ]
+  },
+  {
+   "id": 47173,
+   "type": "message",
+   "date": "2024-02-20T09:20:49",
+   "date_unixtime": "1708431649",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "building smth and learning new things",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "building smth and learning new things"
+    }
+   ]
+  },
+  {
+   "id": 47174,
+   "type": "message",
+   "date": "2024-02-20T09:20:54",
+   "date_unixtime": "1708431654",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "wby",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "wby"
+    }
+   ]
+  },
+  {
+   "id": 47175,
+   "type": "message",
+   "date": "2024-02-20T09:20:58",
+   "date_unixtime": "1708431658",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Nice. That's great",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nice. That's great"
+    }
+   ]
+  },
+  {
+   "id": 47176,
+   "type": "message",
+   "date": "2024-02-20T09:21:18",
+   "date_unixtime": "1708431678",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "We got a lead investor and trying to close our round",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "We got a lead investor and trying to close our round"
+    }
+   ]
+  },
+  {
+   "id": 47177,
+   "type": "message",
+   "date": "2024-02-20T09:22:07",
+   "date_unixtime": "1708431727",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Your advice and starting with angel investors really helped us a lot and we were able to close 30% of the round before the lead came in",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Your advice and starting with angel investors really helped us a lot and we were able to close 30% of the round before the lead came in"
+    }
+   ]
+  },
+  {
+   "id": 47178,
+   "type": "message",
+   "date": "2024-02-20T09:23:40",
+   "date_unixtime": "1708431820",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "nice!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "nice!"
+    }
+   ]
+  },
+  {
+   "id": 47179,
+   "type": "message",
+   "date": "2024-02-20T09:23:48",
+   "date_unixtime": "1708431828",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "great job mate",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "great job mate"
+    }
+   ]
+  },
+  {
+   "id": 47180,
+   "type": "message",
+   "date": "2024-02-20T09:23:54",
+   "date_unixtime": "1708431834",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Thanks man!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thanks man!"
+    }
+   ]
+  },
+  {
+   "id": 47181,
+   "type": "message",
+   "date": "2024-02-20T09:24:00",
+   "date_unixtime": "1708431840",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "specially in this bear condition",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "specially in this bear condition"
+    }
+   ]
+  },
+  {
+   "id": 47182,
+   "type": "message",
+   "date": "2024-02-20T09:24:12",
+   "date_unixtime": "1708431852",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 47181,
+   "text": "Thats for sure",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thats for sure"
+    }
+   ]
+  },
+  {
+   "id": 47183,
+   "type": "message",
+   "date": "2024-02-20T09:24:44",
+   "date_unixtime": "1708431884",
+   "edited": "2024-02-20T10:38:06",
+   "edited_unixtime": "1708436286",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "We are now setting up hiring pipelines and finding integrations with different projects now",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "We are now setting up hiring pipelines and finding integrations with different projects now"
+    }
+   ]
+  },
+  {
+   "id": 47184,
+   "type": "message",
+   "date": "2024-02-20T09:25:36",
+   "date_unixtime": "1708431936",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Did you and your co founders signed a co-founders agreement? I had some doubts that I wanted to clear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Did you and your co founders signed a co-founders agreement? I had some doubts that I wanted to clear"
+    }
+   ]
+  },
+  {
+   "id": 47185,
+   "type": "message",
+   "date": "2024-02-20T10:38:22",
+   "date_unixtime": "1708436302",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Nope and that’s why we got into the trouble",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nope and that’s why we got into the trouble"
+    }
+   ]
+  },
+  {
+   "id": 47186,
+   "type": "message",
+   "date": "2024-02-20T10:39:58",
+   "date_unixtime": "1708436398",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "how come?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "how come?"
+    }
+   ]
+  },
+  {
+   "id": 47187,
+   "type": "message",
+   "date": "2024-02-20T10:40:04",
+   "date_unixtime": "1708436404",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "I highly recommend singing agreement on stock, ip, Non-disclosure of internal information",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I highly recommend singing agreement on stock, ip, Non-disclosure of internal information"
+    }
+   ]
+  },
+  {
+   "id": 47188,
+   "type": "message",
+   "date": "2024-02-20T10:40:20",
+   "date_unixtime": "1708436420",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Long story so will share someday",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Long story so will share someday"
+    }
+   ]
+  },
+  {
+   "id": 47189,
+   "type": "message",
+   "date": "2024-02-20T10:40:49",
+   "date_unixtime": "1708436449",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "Also be clear on who is the final decision maker",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Also be clear on who is the final decision maker"
+    }
+   ]
+  },
+  {
+   "id": 47190,
+   "type": "message",
+   "date": "2024-02-20T11:04:36",
+   "date_unixtime": "1708437876",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 47187,
+   "text": "That's what we are currently discussing.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "That's what we are currently discussing."
+    }
+   ]
+  },
+  {
+   "id": 47191,
+   "type": "message",
+   "date": "2024-02-20T11:04:54",
+   "date_unixtime": "1708437894",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "How the vesting would go and how to measure the performance metrics",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How the vesting would go and how to measure the performance metrics"
+    }
+   ]
+  },
+  {
+   "id": 47192,
+   "type": "message",
+   "date": "2024-02-20T11:06:13",
+   "date_unixtime": "1708437973",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 47189,
+   "text": "For this we have divided things based on the roles and overlapping decision will be taken in board meetings",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "For this we have divided things based on the roles and overlapping decision will be taken in board meetings"
+    }
+   ]
+  },
+  {
+   "id": 47193,
+   "type": "message",
+   "date": "2024-02-20T11:26:48",
+   "date_unixtime": "1708439208",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "reply_to_message_id": 47192,
+   "text": "So many things are overlapping each other and have to make decisions quickly in startups. I strongly recommend discussing this asap cuz this was one the main reason why we got in trouble and had to shut down our startup",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "So many things are overlapping each other and have to make decisions quickly in startups. I strongly recommend discussing this asap cuz this was one the main reason why we got in trouble and had to shut down our startup"
+    }
+   ]
+  },
+  {
+   "id": 47194,
+   "type": "message",
+   "date": "2024-02-20T11:27:29",
+   "date_unixtime": "1708439249",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://blog.eladgil.com/p/how-to-choose-co-founder"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://blog.eladgil.com/p/how-to-choose-co-founder"
+    }
+   ]
+  },
+  {
+   "id": 47195,
+   "type": "message",
+   "date": "2024-02-20T11:27:52",
+   "date_unixtime": "1708439272",
+   "edited": "2024-02-20T11:28:39",
+   "edited_unixtime": "1708439319",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "reply_to_message_id": 47193,
+   "text": "We will do that",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "We will do that"
+    }
+   ]
+  },
+  {
+   "id": 47196,
+   "type": "message",
+   "date": "2024-02-20T11:28:15",
+   "date_unixtime": "1708439295",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "That is needed",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "That is needed"
+    }
+   ]
+  },
+  {
+   "id": 47198,
+   "type": "message",
+   "date": "2024-02-20T11:33:39",
+   "date_unixtime": "1708439619",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Can we get on a call. Would like to know what all can go wrong",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Can we get on a call. Would like to know what all can go wrong"
+    }
+   ]
+  },
+  {
+   "id": 47199,
+   "type": "message",
+   "date": "2024-02-20T11:34:23",
+   "date_unixtime": "1708439663",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "sure i can do now",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "sure i can do now"
+    }
+   ]
+  },
+  {
+   "id": 47200,
+   "type": "message",
+   "date": "2024-02-20T11:35:39",
+   "date_unixtime": "1708439739",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "When are you free??",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "When are you free??"
+    }
+   ]
+  },
+  {
+   "id": 47201,
+   "type": "message",
+   "date": "2024-02-20T11:35:56",
+   "date_unixtime": "1708439756",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "We can do whenever you are free",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "We can do whenever you are free"
+    }
+   ]
+  },
+  {
+   "id": 47202,
+   "type": "message",
+   "date": "2024-02-20T11:37:58",
+   "date_unixtime": "1708439878",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": "im free for the next 30min so now or 3or4pm argentina time would work",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "im free for the next 30min so now or 3or4pm argentina time would work"
+    }
+   ]
+  },
+  {
+   "id": 47203,
+   "type": "message",
+   "date": "2024-02-20T11:38:56",
+   "date_unixtime": "1708439936",
+   "from": "Rohit Aggarwal",
+   "from_id": "user1450046028",
+   "text": "Let's get on a call now",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Let's get on a call now"
+    }
+   ]
+  },
+  {
+   "id": 47204,
+   "type": "message",
+   "date": "2024-02-20T11:39:32",
+   "date_unixtime": "1708439972",
+   "from": "kohei.eth ☂️",
+   "from_id": "user1984699049",
+   "text": [
+    "rohit\nTuesday, February 20 · 11:45am – 12:15pm\nTime zone: America/Argentina/Buenos_Aires\nGoogle Meet joining info\nVideo call link: ",
+    {
+     "type": "link",
+     "text": "https://meet.google.com/xtu-uefp-qzh"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "rohit\nTuesday, February 20 · 11:45am – 12:15pm\nTime zone: America/Argentina/Buenos_Aires\nGoogle Meet joining info\nVideo call link: "
+    },
+    {
+     "type": "link",
+     "text": "https://meet.google.com/xtu-uefp-qzh"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  }
+ ]
+}

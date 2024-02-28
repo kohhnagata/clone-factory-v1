@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+.side-menu {
+    width: 200px;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.side-menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
