@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Side Menu Navigation</title>
     <link rel="stylesheet" href="style.css"> <!-- Make sure to link to your CSS file -->
+    <script>
+        // JavaScript to update form action based on user selection
+        function updateFormAction() {
+            var chatType = document.getElementById('chatType').value;
+            var form = document.querySelector('form');
+            if(chatType === 'whatsapp') {
+                form.action = '/upload-whatsapp-history';
+            } else if(chatType === 'telegram') {
+                form.action = '/upload-telegram-history';
+            } else if(chatType === 'instagram/messenger') {
+                form.action = '/upload-instagram-messenger-history';
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="side-menu">
@@ -14,18 +28,17 @@
         <a href="/chat-interface">Chat Interface</a>
     </div>
     <div class="content">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Chat History Upload Page</title>
-        </head>
-        <body>
-            <h1>Upload Chat History</h1>
-            <form action="/upload-chat-history" method="post" enctype="multipart/form-data">
-                <input type="file" name="chatHistory" required multiple>
-                <button type="submit">Upload Chat History</button>
-            </form>
-        </body>
+        <h1>Upload Chat History</h1>
+        <form method="post" enctype="multipart/form-data">
+            <select id="chatType" onchange="updateFormAction()" required>
+                <option value="">Select Chat Type</option>
+                <option value="whatsapp">WhatsApp</option>
+                <option value="telegram">Telegram</option>
+                <option value="instagram/messenger">Instagram/Messenger</option>
+            </select>
+            <input type="file" name="chatHistory" required multiple>
+            <button type="submit">Upload Chat History</button>
+        </form>
     </div>
 </body>
 </html>

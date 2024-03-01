@@ -11,10 +11,18 @@ const http = require('http');
 
 const app = express();
 const server = http.createServer(app);
-const io = require('socket.io')(http);
+const io = require('socket.io')(server);
 
 const PORT = process.env.PORT || 3000;
 const upload = multer({ dest: 'uploads/' });
+
+const { Pool } = require('pg');
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false
+  }
+});
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -91,7 +99,22 @@ app.post('/upload-instagram-messenger-history', upload.array('chatHistory', 10),
     processChatHistory(req, res, 'instagram-messenger-clean-chat-history.py');
 });
 
+app.post('/upload-chat-history', async (req, res) => {
+    // Assuming 'cleanChatHistory' is a function that cleans and returns the cleaned chat content
+    const cleanedChatContent = cleanChatHistory(req.file);
+    await storeChatHistory(req.user.id, req.body.chatType, cleanedChatContent);
+    res.send('Chat history uploaded and stored successfully');
+  });  
+
+
 app.get('/chat-history-upload', (req, res) => res.sendFile(path.join(__dirname, 'public', 'chat-history-upload.html')));
+
+
+// storing chat history function
+async function storeChatHistory(userId, chatType, cleanedChatContent) {
+    await pool.query('INSERT INTO chat_history(user_id, chat_type, content) VALUES ($1, $2, $3)', [userId, chatType, cleanedChatContent]);
+  }
+  
 
 app.get('/chat-interface', (req, res) => {
     // Optional: check if the user is authenticated

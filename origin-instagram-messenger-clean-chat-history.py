@@ -5,23 +5,41 @@ import json
 from datetime import datetime, timedelta
 
 def is_unnecessary_content(content):
+    """
+    Checks if the message content is an automatic reaction message or similar unnecessary content.
+    """
     unnecessary_patterns = [
-        re.compile(r"reaccion\w*\s+.*\s+a tu mensaje", re.IGNORECASE),
-        re.compile(r"reacted\s+.*\s*to your message", re.IGNORECASE),
-        re.compile(r"reaccion[oó]\s+[\s\S]*?\s*a tu mensaje", re.IGNORECASE),
-    ]
+    re.compile(r"reaccion\w*\s+.*\s*a tu mensaje", re.IGNORECASE),
+    re.compile(r"reacted\s+.*\s*to your message", re.IGNORECASE),
+    # Adjusted pattern to capture encoding artifacts and broader range of characters
+    re.compile(r"reaccion[oó]\s+[\s\S]*?\s*a tu mensaje", re.IGNORECASE),
+]
     return any(pattern.search(content) for pattern in unnecessary_patterns)
 
 def clean_content(content):
+    """
+    Cleans the message content by removing URLs, emojis, non-word characters, and unnecessary content.
+    """
     if is_unnecessary_content(content):
         return ""
+
     content = re.sub(r'http\S+', '', content)  # Remove URLs
     content = re.sub(r'[^\w\s]', '', content)  # Remove emojis and non-text characters
     return content.strip()
 
-def parse_chat_to_json(input_data, custom_user_name):
+def parse_chat_to_json(input_data):
+    """
+    Parses the given Instagram chat history data into a list of messages grouped by time periods,
+    ensuring each period contains at least one message from each participant if possible.
+
+    Args:
+    input_data (dict): The chat history as a dictionary.
+
+    Returns:
+    list: A list of dictionaries, each containing a group of messages.
+    """
     messages = input_data['messages']
-    participants = {p['name']: "user" if custom_user_name.lower() not in p['name'].lower() else "assistant" for p in input_data['participants']}
+    participants = {p['name']: "user" if "kohei" not in p['name'].lower() else "assistant" for p in input_data['participants']}
     parsed_messages = []
 
     current_time = None
@@ -58,11 +76,11 @@ def parse_chat_to_json(input_data, custom_user_name):
 
     return parsed_messages
 
-def clean_chat_history(input_file_path, output_file_path, user_name):
+def clean_chat_history(input_file_path, output_file_path):
     with open(input_file_path, 'r', encoding='utf-8') as file:
         chat_history = json.load(file)
 
-    parsed_messages = parse_chat_to_json(chat_history, user_name)
+    parsed_messages = parse_chat_to_json(chat_history)
 
     output_file_path = output_file_path.rstrip('.json') + '.jsonl'
 
@@ -73,11 +91,10 @@ def clean_chat_history(input_file_path, output_file_path, user_name):
                 file.write('\n')
 
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
-        print("Usage: python clean_chat_history.py <input_file_path> <output_file_path> <user_name>")
+    if len(sys.argv) != 3:
+        print("Usage: python clean_chat_history.py <input_file_path> <output_file_path>")
         sys.exit(1)
 
     input_file_path = sys.argv[1]
     output_file_path = sys.argv[2]
-    user_name = sys.argv[3]
-    clean_chat_history(input_file_path, output_file_path, user_name)
+    clean_chat_history(input_file_path, output_file_path)

@@ -11,7 +11,7 @@ def clean_content(content):
     content = re.sub(r'[^\w\s]', '', content)
     return content
 
-def parse_chat_to_json(input_data, custom_user_name):
+def parse_chat_to_json(input_data):
     messages = input_data['messages']
     grouped_messages = []
 
@@ -28,7 +28,7 @@ def parse_chat_to_json(input_data, custom_user_name):
                 content = ''.join([str(item) if isinstance(item, str) else item.get('text', '') for item in message['text']])
             else:
                 content = message.get('text', '')
-            role = "user" if custom_user_name.lower() not in sender.lower() else "assistant"
+            role = "user" if "kohei.eth ☂️" not in sender else "assistant"
             
             # Clean the content
             content = clean_content(content)
@@ -52,11 +52,11 @@ def parse_chat_to_json(input_data, custom_user_name):
 
     return grouped_messages
 
-def clean_chat_history(input_file_path, output_file_path, user_name):
+def clean_chat_history(input_file_path, output_file_path):
     with open(input_file_path, 'r', encoding='utf-8') as file:
         chat_history = json.load(file)
 
-    parsed_messages = parse_chat_to_json(chat_history, user_name)
+    parsed_messages = parse_chat_to_json(chat_history)
 
     output_file_path = output_file_path.rstrip('.json') + '.jsonl'
 
@@ -67,11 +67,10 @@ def clean_chat_history(input_file_path, output_file_path, user_name):
                 file.write('\n')
 
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
-        print("Usage: python clean_chat_history.py <input_file_path> <output_file_path> <user_name>")
+    if len(sys.argv) != 3:
+        print("Usage: python clean_chat_history.py <input_file_path> <output_file_path>")
         sys.exit(1)
 
     input_file_path = sys.argv[1]
     output_file_path = sys.argv[2]
-    user_name = sys.argv[3]
-    clean_chat_history(input_file_path, output_file_path, user_name)
+    clean_chat_history(input_file_path, output_file_path)

@@ -3,17 +3,7 @@ import json
 import re
 from datetime import datetime, timedelta
 
-def parse_chat_to_json(input_text):
-    """
-    Parses the given chat history text into a list of messages grouped by time periods,
-    ensuring each period contains at least one user and one assistant message.
-
-    Args:
-    input_text (str): The chat history as a multiline string.
-
-    Returns:
-    list: A list of dictionaries, each containing a group of messages.
-    """
+def parse_chat_to_json(input_text, custom_user_name):
     lines = input_text.split('\n')
     messages = []
 
@@ -29,7 +19,8 @@ def parse_chat_to_json(input_text):
 
             if ": " in message_content:
                 sender, content = message_content.split(': ', 1)
-                role = "user" if "Kohei" not in sender else "assistant"
+                role = "user" if custom_user_name.lower() not in sender.lower() else "assistant"
+
                 content = re.sub(r'[^\w\s]|http\S+', '', content)
 
                 timestamp_format = "%m/%d/%y, %I:%M:%S %p"
@@ -57,11 +48,11 @@ def parse_chat_to_json(input_text):
 
     return messages
 
-def clean_chat_history(input_file_path, output_file_path):
+def clean_chat_history(input_file_path, output_file_path, user_name):
     with open(input_file_path, 'r', encoding='utf-8') as file:
         chat_history = file.read()
 
-    parsed_messages = parse_chat_to_json(chat_history)
+    parsed_messages = parse_chat_to_json(chat_history, user_name)
 
     output_file_path = output_file_path.rstrip('.txt') + '.jsonl'
 
@@ -73,10 +64,11 @@ def clean_chat_history(input_file_path, output_file_path):
     print(f"Formatted chat history saved to {output_file_path}")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python clean_chat_history.py <input_file_path> <output_file_path>")
+    if len(sys.argv) != 4:
+        print("Usage: python clean_chat_history.py <input_file_path> <output_file_path> <user_name>")
         sys.exit(1)
 
     input_file_path = sys.argv[1]
     output_file_path = sys.argv[2]
-    clean_chat_history(input_file_path, output_file_path)
+    user_name = sys.argv[3]
+    clean_chat_history(input_file_path, output_file_path, user_name)

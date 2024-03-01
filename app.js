@@ -86,17 +86,55 @@ function processChatHistory(req, res, scriptName) {
     }
 }
 
+// Function to process a single chat history file with customizable username
+function processSingleChatHistory(file, scriptName, userName) {
+    return new Promise((resolve, reject) => {
+        const inputFilePath = file.path;
+        const outputFilePath = path.join(cleanedDirPath, `${file.filename}.json`);
+        // Adding userName as the last argument to pass to the Python script
+        execFile('python3', [scriptName, inputFilePath, outputFilePath, userName], (error, stdout, stderr) => {
+            if (error) {
+                console.error(`Error: ${error.message}`);
+                reject(`Error processing chat history file: ${file.filename}`);
+            } else {
+                resolve(stdout);
+            }
+        });
+    });
+}
+
 // Define endpoints for each chat type
 app.post('/upload-whatsapp-history', upload.array('chatHistory', 10), (req, res) => {
-    processChatHistory(req, res, 'clean-chat-history.py');
+    const userName = req.body.userName; // Assuming the form field for the user's name is 'userName'
+    Promise.all(req.files.map(file => processSingleChatHistory(file, 'clean-chat-history.py', userName)))
+        .then(results => {
+            res.send('All chat history files processed successfully.');
+        })
+        .catch(error => {
+            res.status(500).send(error);
+        });
 });
 
 app.post('/upload-telegram-history', upload.array('chatHistory', 10), (req, res) => {
-    processChatHistory(req, res, 'telegram-clean-chat-history.py');
+    const userName = req.body.userName; // Assuming the form field for the user's name is 'userName'
+    Promise.all(req.files.map(file => processSingleChatHistory(file, 'telegram-clean-chat-history.py', userName)))
+        .then(results => {
+            res.send('All chat history files processed successfully.');
+        })
+        .catch(error => {
+            res.status(500).send(error);
+        });
 });
 
 app.post('/upload-instagram-messenger-history', upload.array('chatHistory', 10), (req, res) => {
-    processChatHistory(req, res, 'instagram-messenger-clean-chat-history.py');
+    const userName = req.body.userName; // Assuming the form field for the user's name is 'userName'
+    Promise.all(req.files.map(file => processSingleChatHistory(file, 'instagram-messenger-clean-chat-history.py', userName)))
+        .then(results => {
+            res.send('All chat history files processed successfully.');
+        })
+        .catch(error => {
+            res.status(500).send(error);
+        });
 });
 
 app.post('/upload-chat-history', async (req, res) => {
