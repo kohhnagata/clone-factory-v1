@@ -1,3 +1,17 @@
+
+#Motivation
+
+I wanted to create a chat clone of myself.
+chatting with my clone when im down, rememvering what were the things I put importance on, etc.
+but man fine-tuning LLM with chat history is extremely stressful.
+GPTs only accepts 20 small files.
+c.ai, Delphi.ai, Replika doesnt even allow users to fine-tune with original dataset.
+fine-tuning GPT or other LLM is only accepts dataset in a specific format and cleaning task for each chat app history is nightmare.
+so I built this.
+The app is not done yet.
+There are so many things I wanna add like supporting other chat app, increase the fine-tuning quality, improve chat experience etc.
+If you are interested in relationship building between Human and Machine too, feel free to reach me out @ https://twitter.com/koheingt
+
 #Overview
 
 This application allows users to create their chat clone for engaging chat experiences. By uploading their chat history, users can craft an chat clone that embodies their values and behaviors, offering a unique and tailored interaction.
@@ -50,9 +64,3 @@ flask run
 3: Play with the app
 Open your web browser and navigate to http://localhost:3000
 Play with the app
-
-#Side Notes
-
-The app is not done yet.
-There are so many things I wanna add like supporting other chat app, increase the fine-tuning quality, improve chat experience etc.
-If you are interested in relationship building between Human and Machine too, feel free to reach me out @ https://twitter.com/koheingt
