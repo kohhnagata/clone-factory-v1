@@ -94,12 +94,17 @@ source myenv/bin/activate
 run (on Terminal):
 pip install Flask flask-cors openai scikit-learn
 
-4: Set up OPENAI_API_KEY
+10: Set up OPENAI_API_KEY
 Go to https://platform.openai.com/ and create your account.
 Move to API keys tab, click Create new secret key and copy the SECRET KEY.
 go to .env file and paste the key as below(no space around = sign).
 
 OPENAI_API_KEY=sk-58nduZKAtpo8HCd1KiiWP7dg4wWuS4vp3JYw2TEST
+
+11: Charge your OPENAI account
+In order to fine-tune a model with your dataset, it costs a bit of money.
+(Depends on the amount of your chat history data but $5~10 should be enough)
+Go to Billing tab in Setting and Charge it.
 
 #Start Your Application
 
