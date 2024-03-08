@@ -48,5 +48,11 @@ export FLASK_APP=chat_with_model.py
 flask run
 
 3: Play with the app
-go to http://localhost:3000
-play with the app 
+Open your web browser and navigate to http://localhost:3000
+Play with the app
+
+#Side Notes
+
+The app is not done yet.
+There are so many things I wanna add like supporting other chat app, increase the fine-tuning quality, improve chat experience etc.
+If you are interested in relationship building between Human and Machine too, feel free to reach me out @ https://twitter.com/koheingt
