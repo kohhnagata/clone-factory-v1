@@ -2,12 +2,13 @@ require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const passport = require('passport');
-const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const session = require('express-session');
 const multer = require('multer');
 const { execFile } = require('child_process');
 const fs = require('fs');
 const http = require('http');
+const { spawn } = require('child_process');
+const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 const server = http.createServer(app);
@@ -16,22 +17,7 @@ const io = require('socket.io')(server);
 const PORT = process.env.PORT || 3000;
 const upload = multer({ dest: 'uploads/' });
 
-const { Pool } = require('pg');
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl: {
-    rejectUnauthorized: false
-  }
-});
-
 app.use(express.static(path.join(__dirname, 'public')));
-
-passport.use(new GoogleStrategy({
-    clientID: "578760609373-dtnp3q0pdgm2ob6t9ip9n6c6oa01mmeb.apps.googleusercontent.com",
-    clientSecret: "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",
-    callbackURL: "http://localhost:3000/auth/google/callback"
-  }, (accessToken, refreshToken, profile, cb) => cb(null, profile)
-));
 
 passport.serializeUser((user, done) => done(null, user));
 passport.deserializeUser((obj, done) => done(null, obj));
@@ -39,14 +25,13 @@ passport.deserializeUser((obj, done) => done(null, obj));
 app.use(session({ secret: "secret", resave: false, saveUninitialized: true }));
 app.use(passport.initialize());
 app.use(passport.session());
+// Proxy endpoint
+app.use('/chat', createProxyMiddleware({ 
+    target: 'http://127.0.0.1:5000', // Target host
+    changeOrigin: true, // needed for virtual hosted sites
+}));
 
-app.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
-app.get('/auth/google/callback', passport.authenticate('google', { failureRedirect: '/sign-in' }), (req, res) => res.redirect('/user-profile'));
-app.get('/sign-in', (req, res) => res.sendFile(path.join(__dirname, 'public', 'sign-in.html')));
-app.get('/user-profile', (req, res) => req.isAuthenticated() ? res.sendFile(path.join(__dirname, 'public', 'user-profile.html')) : res.redirect('/sign-in'));
-app.get('/logout', (req, res) => { req.logout(); res.redirect('/sign-in'); });
-app.get('/delete-account', (req, res) => { if (req.isAuthenticated()) { req.logout(); res.redirect('/sign-in'); } else { res.redirect('/sign-in'); }});
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public', 'sign-in.html')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
 
 // Adjusted section for uploading and moving chat history
 const cleanedDirPath = path.join(__dirname, 'cleaned_chat_history');
@@ -144,23 +129,34 @@ app.post('/upload-chat-history', async (req, res) => {
     res.send('Chat history uploaded and stored successfully');
   });  
 
+// Endpoint to start the fine-tuning process
+app.post('/start-fine-tuning', (req, res) => {
+    // Replace 'python3' and 'fine-tune.py' with your actual Python executable and script path
+    const fineTuneProcess = spawn('python3', ['./fine-tune.py']);
+
+    fineTuneProcess.stdout.on('data', (data) => {
+        console.log(`stdout: ${data}`);
+    });
+
+    fineTuneProcess.stderr.on('data', (data) => {
+        console.error(`stderr: ${data}`);
+    });
+
+    fineTuneProcess.on('close', (code) => {
+        console.log(`child process exited with code ${code}`);
+    });
+
+    res.json({message: "Fine-tuning process started."});
+});
+
 
 app.get('/chat-history-upload', (req, res) => res.sendFile(path.join(__dirname, 'public', 'chat-history-upload.html')));
 
-
-// storing chat history function
-async function storeChatHistory(userId, chatType, cleanedChatContent) {
-    await pool.query('INSERT INTO chat_history(user_id, chat_type, content) VALUES ($1, $2, $3)', [userId, chatType, cleanedChatContent]);
-  }
-  
-
 app.get('/chat-interface', (req, res) => {
-    // Optional: check if the user is authenticated
     res.sendFile(path.join(__dirname, 'public', 'chat-interface.html'));
 });
 
 app.get('/clone-creation', (req, res) => {
-    // Optional: Check if the user is authenticated
     res.sendFile(path.join(__dirname, 'public', 'clone-creation.html'));
 });
 

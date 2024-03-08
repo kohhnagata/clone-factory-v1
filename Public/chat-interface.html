@@ -2,44 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chat Interface</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with your Model</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file used in clone-creation.html -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("#send").click(function(){
+        var modelName = $("#model_name").val();
+        var userInput = $("#user_input").val();
+        $.post("/chat", {model_name: modelName, user_input: userInput}, function(data, status){
+        $("#chat").append("<p><b>You:</b> " + userInput + "</p>");
+        $("#chat").append("<p><b>Model:</b> " + data.response + "</p>");
+        $("#user_input").val(""); // Clear input field
+        });
+    });
+    });
+    </script>
 </head>
 <body>
-    <div class="side-menu">
-        <a href="/user-profile">User Profile</a>
-        <a href="/chat-history-upload">Chat History Upload</a>
-        <a href="/clone-creation">Start Creating Clone</a>
-        <a href="/chat-interface">Chat Interface</a>
+<div class="side-menu"> <!-- Side menu from clone-creation.html -->
+    <a href="/chat-history-upload">Upload Chat History</a>
+    <a href="/clone-creation">Create Your Clone</a>
+    <a href="/chat-interface">Chat Interface</a>
+</div>
+<div class="content"> <!-- Content area adaptation -->
+    <h1>Chat with Your Clone</h1>
+    <div id="chat" style="border:2px solid #ccc; padding:10px; height:300px; overflow-y:scroll;">
     </div>
-    <div class="content">
-        <h1>Chat Interface</h1>
-        <div id="chat-container">
-            <div id="chat-box">
-                <!-- Chat messages will be appended here -->
-            </div>
-            <input type="text" id="chat-input" placeholder="Type your message...">
-            <button id="send-btn">Send</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
-    <script src="/socket.io/socket.io.js"></script>
-    <script>
-        var socket = io();
-
-        // When the user sends a message
-        document.getElementById('send-btn').onclick = function() {
-            var message = document.getElementById('chat-input').value;
-            socket.emit('chat message', message);
-        };
-
-        // When a message is received
-        socket.on('chat message', function(msg) {
-            var item = document.createElement('li');
-            item.textContent = msg;
-            document.getElementById('messages').appendChild(item);
-            window.scrollTo(0, document.body.scrollHeight);
-        });
-    </script>
+    <input type="text" id="model_name" placeholder="Enter your model name here...">
+    <textarea id="user_input" placeholder="Type your message here..." rows="5" cols="50"></textarea>
+    <button id="send">Send</button>
+</div>
 </body>
 </html>

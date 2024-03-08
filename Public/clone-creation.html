@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Start Creating Your Clone</title>
+    <title>Create Your Clone</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="side-menu">
-        <a href="/user-profile">User Profile</a>
-        <a href="/chat-history-upload">Chat History Upload</a>
-        <a href="/clone-creation">Start Creating Clone</a>
+        <a href="/chat-history-upload">Upload Chat History</a>
+        <a href="/clone-creation">Create Your Clone</a>
         <a href="/chat-interface">Chat Interface</a>
     </div>
     <div class="content">
-        <h1>Start Creating Your Clone</h1>
+        <h1>Create Your Clone</h1>
         <div class="button-container">
-            <input type="file" id="fileInput" name="file">
-            <button onclick="uploadFile()">Start Fine-Tuning</button>
+            <button onclick="startFineTuning()">Start Fine-Tuning</button>
         </div>
     </div>
     <div id="progress"></div>
@@ -27,19 +25,41 @@
             document.getElementById('progress').innerText = "Progress: " + data.progress + "%";
         });
 
-        function uploadFile() {
-            var file = document.getElementById('fileInput').files[0];
-            var formData = new FormData();
-            formData.append('file', file);
-
-            fetch('/start-fine-tuning', {
-                method: 'POST',
-                body: formData,
-            })
+        function startFineTuning() {
+            fetch('/start-fine-tuning', { method: 'POST' })
             .then(response => response.json())
-            .then(data => console.log(data))
-            .catch(error => console.error('Error:', error));
+            .then(data => {
+                console.log('Fine-tuning started: ', data.message);
+                // You can update the UI here to inform the user that fine-tuning has started
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
         }
+
+    document.getElementById("sendButton").addEventListener("click", function() {
+        var userMessage = document.getElementById("messageInput").value;
+        fetch('/chat', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message: userMessage }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Success:', data);
+            // Display the AI response in your chat interface
+            var chatHistory = document.getElementById("chatHistory");
+            chatHistory.innerHTML += `<div>User: ${userMessage}</div>`;
+            chatHistory.innerHTML += `<div>AI: ${data}</div>`;
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+    });
+
+
     </script>
 </body>
 </html>
