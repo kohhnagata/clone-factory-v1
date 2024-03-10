@@ -36,91 +36,102 @@ If you are interested in relationship building between Human and Machine too, fe
 - Fine-tune a chat model based on users chat history
 - Engage in conversations with the your chat clone through a web interface
 
-#Things You Need To Prepare
-- Node.js
-- Python 3
-- npm modules(see below)
-- python modules(")
-- OpenAI API key
-- Chat History
+Prerequisites
+Before starting, ensure you have the following:
 
-#How To Install The App
+Node.js
+Python 3
+Required npm modules (detailed below)
+Necessary Python packages (specified below)
+OpenAI API key
+Your chat history files
+Installation Guide
+This guide is designed to be accessible for users of all technical backgrounds. If you're already familiar with the prerequisites, feel free to skip the corresponding steps. This guide is primarily for macOS users, but steps for Windows users may be added in the future.
 
-*I will try to make the guide book even doable for non-technical ppl. Please skip them if you already have the prerequirements.
-*I am a Mac user so I will put the guilde book only for Mac users first. Might add one for Window users if needed.
+Setting Up Your Environment
+Install Homebrew:
+Open Terminal and execute:
 
-1: Install Homebrew
-Open Terminal and run:
+bash
+Copy code
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+Install Git:
+In Terminal, run:
 
-2; Install Git
-run (on Terminal):
+Copy code
 brew install git
+Clone the Repository:
+Execute the following command in Terminal:
 
-3: Clone the repository to your local machine
-run (on Terminal):
-git clone https:
+bash
+Copy code
+git clone [Repository URL]
+Install Node.js and npm:
 
-4: install npm
-
-Go to https://nodejs.org/
-cClick The LTS version to download the installer.
-follow the installation prompts, and run below to verify the installation.
-
+Visit Node.js official website and download the LTS version installer.
+Follow the installation instructions.
+Verify the installation by running the following commands in Terminal:
+Copy code
 node -v
 npm -v
+Install Node.js Dependencies:
+In Terminal, execute:
 
-5: Install Node.js dependencies
-run (on Terminal):
+Copy code
 npm install
+Install Required npm Modules:
+Run the following command in Terminal:
 
-6: install npm modules
-run (on Terminal):
+lua
+Copy code
 npm install dotenv express passport express-session multer http-proxy-middleware socket.io
+Install Python:
+Execute in Terminal:
 
-7: Install python
-run (on Terminal):
+Copy code
 brew install python3
+Set Up Python Virtual Environment:
 
-8: Set up python virtual enviroment
-Find clone-factory-v1 file that you downloaded on Finder and click Get Info.
-Look at Where section Replace /path/to/your/repository with the actual path.
-run below one by one (on Terminal):
+Locate the clone-factory-v1 directory in Finder and note its path.
+In Terminal, replace /path/to/your/repository with your actual path and execute the following commands:
+bash
+Copy code
 cd /path/to/your/clone-factory-v1
 python3 -m venv myenv
 source myenv/bin/activate
+Install Python Dependencies:
+In Terminal, run:
 
-9: Install Python dependencies
-run (on Terminal):
+Copy code
 pip install Flask flask-cors openai scikit-learn
+Set Up OPENAI_API_KEY:
 
-10: Set up OPENAI_API_KEY
-Go to https://platform.openai.com/ and create your account.
-Move to API keys tab, click Create new secret key and copy the SECRET KEY.
-go to .env file and paste the key as below(no space around = sign).
+Visit OpenAI Platform, create an account, and navigate to the API keys tab.
+Create a new secret key, copy it, and paste it into the .env file like so (ensure there are no spaces around the = sign):
+makefile
+Copy code
+OPENAI_API_KEY=your_secret_key_here
+Fund Your OpenAI Account:
 
-OPENAI_API_KEY=sk-58nduZKAtpo8HCd1KiiWP7dg4wWuS4vp3JYw2TEST
+Model fine-tuning requires funding. The cost depends on your data volume, but typically $5-$10 is sufficient.
+Navigate to the Billing tab in Settings and add funds as needed.
+Starting the Application
+Start the Node.js Server:
 
-11: Charge your OPENAI account
-In order to fine-tune a model with your dataset, it costs a bit of money.
-(Depends on the amount of your chat history data but $5~10 should be enough)
-Go to Billing tab in Setting and Charge it.
-
-#Start Your Application
-
-1: Start the Node.js server
-Replace /path/to/your/repository with the actual path and run (on Terminal):
+Replace /path/to/your/repository with your actual path and run the following command in Terminal:
+bash
+Copy code
 cd /path/to/your/clone-factory-v1
-
 node app.js
+Start the Flask Server:
 
-2: Start the Flask server
-open another Terminal Window.
-Replace /path/to/your/repository with the actual path and run below one by one(on Terminal):
+Open another Terminal window, replace /path/to/your/repository with your actual path, and execute the following commands:
+bash
+Copy code
 cd /path/to/your/clone-factory-v1
 export FLASK_APP=chat_with_model.py
 flask run
+Explore the Application:
 
-3: Play with the app
-Open your web browser and navigate to http://localhost:3000
-Play with the app
+Open a web browser and navigate to http://localhost:3000.
+Enjoy interacting with your personalized chat clone app!
