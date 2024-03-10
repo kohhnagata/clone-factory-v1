@@ -13,11 +13,11 @@ GPTs only accepts 20 small files to add knoweldges.
 AI clone apps like Replika, c.ai, Delphi.ai that don’t let you mess with your original data much.
 fine-tuning GPT or other LLM requires dataset in a very specific format and this data cleaning task is absolutely nightmare.
 
-I guess for experienced devs, tweaking a model with your original dataset is easy but non-technical ppl like me, it’s just alot.
+I guess for experienced devs, tweaking a model with your dataset is easy but non-technical ppl like me, it’s just alot.
 And I'm not the only one – I've seen loads of folks on Reddit hitting the same wall.
 
 So I thought, why not just build it?
-Spent the past 1 month talking to LLMs and built a no-frills web app (designed for local use) where you can upload your chat history, create a clone, and start chatting away. 
+Spent the past 1 month talking to LLMs and built a no-frills web app (for local use) where you can upload your chat history, create a clone, and start chatting away. 
 Just clone the repo, set it up on your local machine, and you’re good to go.
 
 It’s still a work in progress. I've got a whole list of things I want to add – like supporting more chat apps, bumping up the fine-tuning quality, and making the chat feel more natural. If you’re interested in improving this app or helping ppl to build relationship with machines, hit me up. @ https://twitter.com/koheingt
