@@ -9,14 +9,14 @@ Picture it, when you are feeling low and your clone picks you right up, remindin
 Or think about having someone who gets you on a level that just seems beyond what anyone else can grasp.
 
 But man, finding a simple way to make this clone was a mission.
-GPTs only accepts 20 small files to add knoweldges.
+GPTs accepts up to only 20 small files to add knoweldges.
 AI clone apps like Replika, c.ai, Delphi.ai that don’t let you mess with your original data much.
 fine-tuning GPT or other LLM requires dataset in a very specific format and this data cleaning task is absolutely nightmare.
 
 I guess for experienced devs, tweaking a model with your dataset is easy but non-technical ppl like me, it’s just alot.
 And I'm not the only one – I've seen loads of folks on Reddit hitting the same wall.
 
-So I thought, why not just build it?
+So if i cant find a simple solution, fuck it i'll build it.
 Spent the past 1 month talking to LLMs and built a no-frills web app (for local use) where you can upload your chat history, create a clone, and start chatting away. 
 Just clone the repo, set it up on your local machine, and you’re good to go.
 
