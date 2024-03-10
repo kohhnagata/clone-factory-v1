@@ -149,7 +149,22 @@ export FLASK_APP=chat_with_model.py
 flask run
 ```
 
-## Explore the Application:
+## Open the application:
 
 Open a web browser and navigate to http://localhost:3000.
-Enjoy interacting with your personalized chat clone app!
+
+## Upload chat history
+Navigate to the Upload Chat History page within the application.
+Follow the chat-history-download-guide below to download your chat history and upload it to the application. Ensure your name matches exactly as it appears in the chat application to facilitate accurate message extraction.
+
+<>
+
+## Start fine-tuning a model
+Visit the Create Your Clone page.
+Click the Start Fine-Tuning button and monitor the fine-tuning progress at https://platform.openai.com/finetune. The fine-tuning process includes several statuses: Created fine-tuning job, Validating training file, Fine-tuning job started, New fine-tuned model created, and The job has successfully completed.
+If the OPENAI Platform's fine-tuning page doesn't display any model training, check your terminal for potential errors.
+
+## Chat with your clone
+After the fine-tuning job completes, copy the model ID (not the job ID) from https://platform.openai.com/finetune. The model ID looks like ft:gpt-3.5-turbo-0125:personal:clone-factory-v1:90UcjZ7r.
+Navigate to the application's chat interface page and paste the model ID into the Enter your model name section.
+Everything is now set up for you to enjoy chatting with your clone!
