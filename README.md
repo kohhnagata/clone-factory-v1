@@ -1,34 +1,26 @@
 
 # Motivation
 
-In most of the world, people imagine and look at Robot or AI from the productivity perspective.
-Automation tools, alternative workforce etc.
-I was born and grown up in Japan till 17.
-This country is a bit weird that lots of robot comics and anime are about friendship, not tools or human replacement.
-Since I cant remember, I was watching Doraemon and Atom.
-Always dreamed that at some point in the future, I will have a robot friend that are strongly bond to each other just like Nobita and Doraemon.
+So, pretty much everywhere you look, people imagine and build Robot or AI from the productivity perspective. But growing up in Japan until I hit 17, I got a different vibe. Over there, robots in comics and anime are more like your friends or family than just automation tools. I mean, who hasn't wanted a pal like Doraemon? Growing up with these stories, I always dreamed that someday I’d have my own robot friend, someone as tight with me as Nobita is with Doraemon.
 
-Of course, building a robot that has human like intelegence and emotion is still far away.
-But at least as a starting point, I wanted to create a chat clone of myself.
-Imagine chatting to your clone, when you feel down, he/she reminds you about things that you deeply care about.
-Or Asking your clone what you were thinking on the same day 3 years ago.
+Of course, building a robot that has human like intelegence and emotion is still out there.
+But, I figured, why not start small? I wanted to make a chat clone of myself.
+Picture it, when you are feeling low and your clone picks you right up, reminding you of the stuff that really matters. 
+Or think about having someone who gets you on a level that just seems beyond what anyone else can grasp.
 
-I feel this is a ouviues need but man, I couldn't find a easy way to create my clone.
+But man, finding a simple way to make this clone was a mission.
+GPTs only accepts 20 small files to add knoweldges.
+AI clone apps like Replika, c.ai, Delphi.ai that don’t let you mess with your original data much.
+fine-tuning GPT or other LLM requires dataset in a very specific format and this data cleaning task is absolutely nightmare.
 
-GPTs only accepts 20 small files.
-Most of AI clone products like Replika, c.ai, Delphi.ai don't allow users to fine-tune with original dataset or have high limitations.
-fine-tuning GPT or other LLM requires dataset in a very specific format and data cleaning task is extremely stressful.
-I guess for experienced devs, fine-tuning a model with your chat history is easy but non-technical ppl like me, it is a nightmare.
-I also found many people on Reddit trying to fine-tune a model with their chat history but stuck in data cleaning and formatting task.
+I guess for experienced devs, tweaking a model with your original dataset is easy but non-technical ppl like me, it’s just alot.
+And I'm not the only one – I've seen loads of folks on Reddit hitting the same wall.
 
-so I built this.
-It's a simple web app where user can upload chat history to craft a clone and chat with them.
-UIUX both sucks, but still it works and super easy.
-Clone this repo, deploy it locally, and have fun chatting with your clone.
+So I thought, why not just build it?
+Spent the past 1 month talking to LLMs and built a no-frills web app (designed for local use) where you can upload your chat history, create a clone, and start chatting away. 
+Just clone the repo, set it up on your local machine, and you’re good to go.
 
-The app is not done yet.
-There are so many things I wanna add like supporting other chat app, increase the fine-tuning quality, improve chat experience etc.
-If you are interested in relationship building between Human and Machine too, feel free to reach me out @ https://twitter.com/koheingt
+It’s still a work in progress. I've got a whole list of things I want to add – like supporting more chat apps, bumping up the fine-tuning quality, and making the chat feel more natural. If you’re interested in improving this app or helping ppl to build relationship with machines, hit me up. @ https://twitter.com/koheingt
 
 # Key Features
 - Upload chat history from WhatsApp, Telegram, and Instagram Messenger
