@@ -172,16 +172,18 @@ Navigate to the Billing tab in Settings and add funds as needed.
 3. Click Download or transfer information, check your instagram account and tap Next.
 4. Click Some of your information, check only “Messages” and tap Next.
 5. Check Download to device, and tap Next.
-👉 on the next page, Choose All time as Data range (or customise as you wish), **Choose JSON as data format**, media quality is no-related since you are only downloading chat history.
+    
+    👉on the next page, Choose All time as Data range (or customise as you wish), **Choose JSON as data format**, media quality is no-related since you are only downloading chat history.
 6. Submit the request and wait for an email with the download link.
 
 ## Facebook Messenger
 
 1. Log in to your Facebook account and go to "Settings & Privacy" > "Settings" > "Your Facebook Information" > "View" beside "Download Your Information."
-- Select "Request a download,"  check only “Messages” and tap Next.
-- Check Download to device, and tap Next.
-👉 on the next page, Choose All time as Data range (or customise as you wish), **Choose JSON as data format**, media quality is no-related since you are only downloading chat history.
-- Submit the request and wait for an email with the download link.
+2. Select "Request a download,"  check only “Messages” and tap Next.
+3. Check Download to device, and tap Next.
+    
+    👉on the next page, Choose All time as Data range (or customise as you wish), **Choose JSON as data format**, media quality is no-related since you are only downloading chat history.
+4. Submit the request and wait for an email with the download link.
 
 # Starting the Application
 
