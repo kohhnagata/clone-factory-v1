@@ -93,7 +93,7 @@ app.post('/upload-whatsapp-history', upload.array('chatHistory', 10), (req, res)
     const userName = req.body.userName; // Assuming the form field for the user's name is 'userName'
     Promise.all(req.files.map(file => processSingleChatHistory(file, 'clean-chat-history.py', userName)))
         .then(results => {
-            res.send('All chat history files processed successfully.');
+            res.send('<h2>All chat history files processed successfully.</h2><a href="/chat-history-upload">Go Back</a>');
         })
         .catch(error => {
             res.status(500).send(error);
@@ -104,7 +104,7 @@ app.post('/upload-telegram-history', upload.array('chatHistory', 10), (req, res)
     const userName = req.body.userName; // Assuming the form field for the user's name is 'userName'
     Promise.all(req.files.map(file => processSingleChatHistory(file, 'telegram-clean-chat-history.py', userName)))
         .then(results => {
-            res.send('All chat history files processed successfully.');
+            res.send('<h2>All chat history files processed successfully.</h2><a href="/chat-history-upload">Go Back</a>');
         })
         .catch(error => {
             res.status(500).send(error);
@@ -115,7 +115,7 @@ app.post('/upload-instagram-messenger-history', upload.array('chatHistory', 10),
     const userName = req.body.userName; // Assuming the form field for the user's name is 'userName'
     Promise.all(req.files.map(file => processSingleChatHistory(file, 'instagram-messenger-clean-chat-history.py', userName)))
         .then(results => {
-            res.send('All chat history files processed successfully.');
+            res.send('<h2>All chat history files processed successfully.</h2><a href="/chat-history-upload">Go Back</a>');
         })
         .catch(error => {
             res.status(500).send(error);
@@ -126,7 +126,7 @@ app.post('/upload-chat-history', async (req, res) => {
     // Assuming 'cleanChatHistory' is a function that cleans and returns the cleaned chat content
     const cleanedChatContent = cleanChatHistory(req.file);
     await storeChatHistory(req.user.id, req.body.chatType, cleanedChatContent);
-    res.send('Chat history uploaded and stored successfully');
+    res.send('<h2>All chat history files processed successfully.</h2><a href="/chat-history-upload">Go Back</a>');
   });  
 
 // Endpoint to start the fine-tuning process

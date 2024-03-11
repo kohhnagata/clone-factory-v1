@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat with your Model</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file used in clone-creation.html -->
+    <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
-    $("#send").click(function(){
-        var modelName = $("#model_name").val();
-        var userInput = $("#user_input").val();
-        $.post("/chat", {model_name: modelName, user_input: userInput}, function(data, status){
-        $("#chat").append("<p><b>You:</b> " + userInput + "</p>");
-        $("#chat").append("<p><b>Model:</b> " + data.response + "</p>");
-        $("#user_input").val(""); // Clear input field
+        // Send button click event
+        $("#send").click(function(){
+            var modelName = $("#model_name").val();
+            var userInput = $("#user_input").val();
+            $.post("/chat", {model_name: modelName, user_input: userInput}, function(data, status){
+                $("#chat").append("<p><b>You:</b> " + userInput + "</p>");
+                $("#chat").append("<p><b>Model:</b> " + data.response + "</p>");
+                $("#user_input").val(""); // Clear input field
+            });
         });
-    });
+
+        // Event listener for the return key in the textarea
+        $("#user_input").keypress(function(e){
+            if(e.which == 13 && !e.shiftKey) { // Check for the return key and ensure shift is not pressed
+                e.preventDefault(); // Prevent the default action to prevent line break
+                $("#send").click(); // Trigger the send button click event
+            }
+        });
     });
     </script>
 </head>
 <body>
-<div class="side-menu"> <!-- Side menu from clone-creation.html -->
+<div class="side-menu">
+    <a href="https://kohei-eth.notion.site/Guide-Book-Clone-Factory-v1-4acbdbb7d116419ca07ae6369be27427?pvs=74" target="_blank">Guide Book</a>
     <a href="/chat-history-upload">Upload Chat History</a>
     <a href="/clone-creation">Create Your Clone</a>
     <a href="/chat-interface">Chat Interface</a>
 </div>
-<div class="content"> <!-- Content area adaptation -->
+<div class="content">
     <h1>Chat with Your Clone</h1>
     <div id="chat" style="border:2px solid #ccc; padding:10px; height:300px; overflow-y:scroll;">
     </div>

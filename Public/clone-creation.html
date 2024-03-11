@@ -6,6 +6,7 @@
 </head>
 <body>
     <div class="side-menu">
+        <a href="https://kohei-eth.notion.site/Guide-Book-Clone-Factory-v1-4acbdbb7d116419ca07ae6369be27427?pvs=74" target="_blank">Guide Book</a>
         <a href="/chat-history-upload">Upload Chat History</a>
         <a href="/clone-creation">Create Your Clone</a>
         <a href="/chat-interface">Chat Interface</a>
@@ -14,6 +15,15 @@
         <h1>Create Your Clone</h1>
         <div class="button-container">
             <button onclick="startFineTuning()">Start Fine-Tuning</button>
+        </div>
+        <br><br>
+        <br><br>
+        <div class="side-notes">
+            <p><strong>Side Notes:</strong></p>
+            <ul>
+                <li>Click the button above and monitor progress at <a href="https://platform.openai.com/finetune" target="_blank">https://platform.openai.com/finetune</a></li>
+                <li>If no training appears on the OpenAI Platform, check your terminal for errors</li>
+            </ul>
         </div>
     </div>
     <div id="progress"></div>
@@ -36,30 +46,6 @@
                 console.error('Error:', error);
             });
         }
-
-    document.getElementById("sendButton").addEventListener("click", function() {
-        var userMessage = document.getElementById("messageInput").value;
-        fetch('/chat', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ message: userMessage }),
-        })
-        .then(response => response.json())
-        .then(data => {
-            console.log('Success:', data);
-            // Display the AI response in your chat interface
-            var chatHistory = document.getElementById("chatHistory");
-            chatHistory.innerHTML += `<div>User: ${userMessage}</div>`;
-            chatHistory.innerHTML += `<div>AI: ${data}</div>`;
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
-    });
-
-
     </script>
 </body>
 </html>
