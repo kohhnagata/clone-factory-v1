@@ -8,22 +8,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
-        // Send button click event
         $("#send").click(function(){
             var modelName = $("#model_name").val();
             var userInput = $("#user_input").val();
             $.post("/chat", {model_name: modelName, user_input: userInput}, function(data, status){
                 $("#chat").append("<p><b>You:</b> " + userInput + "</p>");
                 $("#chat").append("<p><b>Model:</b> " + data.response + "</p>");
-                $("#user_input").val(""); // Clear input field
+                $("#user_input").val(""); 
             });
         });
 
-        // Event listener for the return key in the textarea
         $("#user_input").keypress(function(e){
-            if(e.which == 13 && !e.shiftKey) { // Check for the return key and ensure shift is not pressed
-                e.preventDefault(); // Prevent the default action to prevent line break
-                $("#send").click(); // Trigger the send button click event
+            if(e.which == 13 && !e.shiftKey) { 
+                e.preventDefault(); 
+                $("#send").click(); 
             }
         });
     });

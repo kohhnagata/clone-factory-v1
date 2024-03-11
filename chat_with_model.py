@@ -11,7 +11,6 @@ CORS(app)
 
 @app.route('/')
 def index():
-    # Serve index.html at the root URL using render_template
     return render_template('chat-interface.html')
 
 @app.route('/chat', methods=['POST'])

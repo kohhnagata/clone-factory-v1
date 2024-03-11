@@ -19,7 +19,7 @@ document.getElementById('setName').addEventListener('click', function() {
 document.getElementById('logout').addEventListener('click', function() {
     fetch('/api/logout')
     .then(() => {
-        window.location.href = '/'; // Redirect to home or login page
+        window.location.href = '/'; 
     })
     .catch((error) => {
         console.error('Error:', error);
@@ -30,7 +30,7 @@ document.getElementById('deleteAccount').addEventListener('click', function() {
     if (confirm('Are you sure you want to delete your account? This action cannot be undone.')) {
         fetch('/api/delete-account')
         .then(() => {
-            window.location.href = '/'; // Redirect to home or login page
+            window.location.href = '/'; 
         })
         .catch((error) => {
         console.error('Error:', error);
@@ -45,7 +45,7 @@ document.getElementById('send-btn').addEventListener('click', function() {
         displayMessage(message, 'You');
         sendMessageToServer(message);
     }
-    input.value = ''; // Clear input after sending
+    input.value = ''; 
 });
 
 function displayMessage(message, sender) {
@@ -57,8 +57,6 @@ function displayMessage(message, sender) {
 }
 
 function sendMessageToServer(message) {
-    // Implement AJAX request to send message to your server here
-    // Example using Fetch API
     fetch('/send-message', {
         method: 'POST',
         headers: {

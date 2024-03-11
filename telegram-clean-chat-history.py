@@ -5,9 +5,7 @@ import json
 from datetime import datetime, timedelta
 
 def clean_content(content):
-    # Remove URLs
     content = re.sub(r'http\S+', '', content)
-    # Remove emojis and non-word characters except spaces
     content = re.sub(r'[^\w\s]', '', content)
     return content
 
@@ -24,16 +22,14 @@ def parse_chat_to_json(input_data, custom_user_name):
             timestamp = datetime.fromisoformat(message['date'])
             sender = message['from']
             if isinstance(message.get('text'), list):
-                # Combine text and text entities into a single string
                 content = ''.join([str(item) if isinstance(item, str) else item.get('text', '') for item in message['text']])
             else:
                 content = message.get('text', '')
             role = "user" if custom_user_name.lower() not in sender.lower() else "assistant"
             
-            # Clean the content
             content = clean_content(content)
 
-            if content.strip():  # Skip messages with empty content after cleaning
+            if content.strip():  
                 if current_time is None or timestamp - current_time > timedelta(hours=1):
                     if has_user and has_assistant:
                         grouped_messages.append({"messages": current_messages})
@@ -62,7 +58,7 @@ def clean_chat_history(input_file_path, output_file_path, user_name):
 
     with open(output_file_path, 'w', encoding='utf-8') as file:
         for message_group in parsed_messages:
-            if message_group['messages']:  # Ensure there are messages in the group before writing
+            if message_group['messages']:  
                 json.dump(message_group, file, ensure_ascii=False)
                 file.write('\n')
 

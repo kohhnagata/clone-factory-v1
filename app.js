@@ -27,17 +27,15 @@ app.use(passport.initialize());
 app.use(passport.session());
 // Proxy endpoint
 app.use('/chat', createProxyMiddleware({ 
-    target: 'http://127.0.0.1:5000', // Target host
-    changeOrigin: true, // needed for virtual hosted sites
+    target: 'http://127.0.0.1:5000', 
+    changeOrigin: true, 
 }));
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
 
-// Adjusted section for uploading and moving chat history
 const cleanedDirPath = path.join(__dirname, 'cleaned_chat_history');
 if (!fs.existsSync(cleanedDirPath)) fs.mkdirSync(cleanedDirPath);
 
-// Function to process a single chat history file
 function processSingleChatHistory(file, scriptName) {
     return new Promise((resolve, reject) => {
         const inputFilePath = file.path;
@@ -53,17 +51,13 @@ function processSingleChatHistory(file, scriptName) {
     });
 }
 
-// Modified processChatHistory function to handle multiple files
 function processChatHistory(req, res, scriptName) {
     if (req.files && req.files.length > 0) {
-        // Process all files using Promise.all
         Promise.all(req.files.map(file => processSingleChatHistory(file, scriptName)))
             .then(results => {
-                // Once all files are processed successfully
                 res.send('All chat history files processed successfully.');
             })
             .catch(error => {
-                // If there's an error with any file
                 res.status(500).send(error);
             });
     } else {
@@ -71,12 +65,10 @@ function processChatHistory(req, res, scriptName) {
     }
 }
 
-// Function to process a single chat history file with customizable username
 function processSingleChatHistory(file, scriptName, userName) {
     return new Promise((resolve, reject) => {
         const inputFilePath = file.path;
         const outputFilePath = path.join(cleanedDirPath, `${file.filename}.json`);
-        // Adding userName as the last argument to pass to the Python script
         execFile('python3', [scriptName, inputFilePath, outputFilePath, userName], (error, stdout, stderr) => {
             if (error) {
                 console.error(`Error: ${error.message}`);
@@ -88,9 +80,8 @@ function processSingleChatHistory(file, scriptName, userName) {
     });
 }
 
-// Define endpoints for each chat type
 app.post('/upload-whatsapp-history', upload.array('chatHistory', 10), (req, res) => {
-    const userName = req.body.userName; // Assuming the form field for the user's name is 'userName'
+    const userName = req.body.userName; 
     Promise.all(req.files.map(file => processSingleChatHistory(file, 'clean-chat-history.py', userName)))
         .then(results => {
             res.send('<h2>All chat history files processed successfully.</h2><a href="/chat-history-upload">Go Back</a>');
@@ -101,7 +92,7 @@ app.post('/upload-whatsapp-history', upload.array('chatHistory', 10), (req, res)
 });
 
 app.post('/upload-telegram-history', upload.array('chatHistory', 10), (req, res) => {
-    const userName = req.body.userName; // Assuming the form field for the user's name is 'userName'
+    const userName = req.body.userName; 
     Promise.all(req.files.map(file => processSingleChatHistory(file, 'telegram-clean-chat-history.py', userName)))
         .then(results => {
             res.send('<h2>All chat history files processed successfully.</h2><a href="/chat-history-upload">Go Back</a>');
@@ -112,7 +103,7 @@ app.post('/upload-telegram-history', upload.array('chatHistory', 10), (req, res)
 });
 
 app.post('/upload-instagram-messenger-history', upload.array('chatHistory', 10), (req, res) => {
-    const userName = req.body.userName; // Assuming the form field for the user's name is 'userName'
+    const userName = req.body.userName; 
     Promise.all(req.files.map(file => processSingleChatHistory(file, 'instagram-messenger-clean-chat-history.py', userName)))
         .then(results => {
             res.send('<h2>All chat history files processed successfully.</h2><a href="/chat-history-upload">Go Back</a>');
@@ -123,15 +114,12 @@ app.post('/upload-instagram-messenger-history', upload.array('chatHistory', 10),
 });
 
 app.post('/upload-chat-history', async (req, res) => {
-    // Assuming 'cleanChatHistory' is a function that cleans and returns the cleaned chat content
     const cleanedChatContent = cleanChatHistory(req.file);
     await storeChatHistory(req.user.id, req.body.chatType, cleanedChatContent);
     res.send('<h2>All chat history files processed successfully.</h2><a href="/chat-history-upload">Go Back</a>');
   });  
 
-// Endpoint to start the fine-tuning process
 app.post('/start-fine-tuning', (req, res) => {
-    // Replace 'python3' and 'fine-tune.py' with your actual Python executable and script path
     const fineTuneProcess = spawn('python3', ['./fine-tune.py']);
 
     fineTuneProcess.stdout.on('data', (data) => {
@@ -160,7 +148,6 @@ app.get('/clone-creation', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'clone-creation.html'));
 });
 
-// After setting up the http server and before the listen method
 io.on('connection', (socket) => {
     console.log('A user connected');
 
@@ -169,17 +156,14 @@ io.on('connection', (socket) => {
     });
 
     socket.on('chat message', (msg) => {
-        // Broadcast message to everyone, including the sender
         io.emit('chat message', msg);
     });
 });
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
-// Assuming you have Express set up
 app.post('/send-message', (req, res) => {
     const userMessage = req.body.message;
-    // Process the message using your AI model
-    const aiReply = 'This is a placeholder response from AI'; // Placeholder
+    const aiReply = 'This is a placeholder response from AI'; 
     res.json({ reply: aiReply });
 });

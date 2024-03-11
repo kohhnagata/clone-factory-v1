@@ -40,7 +40,6 @@
             .then(response => response.json())
             .then(data => {
                 console.log('Fine-tuning started: ', data.message);
-                // You can update the UI here to inform the user that fine-tuning has started
             })
             .catch((error) => {
                 console.error('Error:', error);

@@ -15,8 +15,8 @@ def is_unnecessary_content(content):
 def clean_content(content):
     if is_unnecessary_content(content):
         return ""
-    content = re.sub(r'http\S+', '', content)  # Remove URLs
-    content = re.sub(r'[^\w\s]', '', content)  # Remove emojis and non-text characters
+    content = re.sub(r'http\S+', '', content)  
+    content = re.sub(r'[^\w\s]', '', content)  
     return content.strip()
 
 def parse_chat_to_json(input_data, custom_user_name):
@@ -28,15 +28,14 @@ def parse_chat_to_json(input_data, custom_user_name):
     current_messages = []
     has_user = has_assistant = False
 
-    for message in reversed(messages):  # Instagram messages are in reverse chronological order
+    for message in reversed(messages):  
         sender_name = message['sender_name']
         content = message.get('content', '')
         timestamp_ms = message['timestamp_ms']
         role = participants.get(sender_name, "user")
 
-        # Clean content
         content = clean_content(content)
-        if not content:  # Skip empty, whitespace-only, or unnecessary messages
+        if not content:  
             continue
 
         timestamp = datetime.fromtimestamp(timestamp_ms / 1000.0)
@@ -68,7 +67,7 @@ def clean_chat_history(input_file_path, output_file_path, user_name):
 
     with open(output_file_path, 'w', encoding='utf-8') as file:
         for message_group in parsed_messages:
-            if message_group['messages']:  # Ensure there are messages in the group before writing
+            if message_group['messages']:  
                 json.dump(message_group, file, ensure_ascii=False)
                 file.write('\n')
 

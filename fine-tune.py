@@ -10,14 +10,12 @@ cleaned_chat_history_path = "./cleaned_chat_history"
 def combine_and_split_data(path, train_split=0.8):
     all_data = []
     for filename in os.listdir(path):
-        # Skip system files and swap files
         if filename.startswith('.') or filename.endswith('.swp'):
             continue
         filepath = os.path.join(path, filename)
-        with open(filepath, 'rb') as f:  # Open in binary mode
+        with open(filepath, 'rb') as f:  
             for line in f:
                 try:
-                    # Decode each line using utf-8, ignore errors
                     decoded_line = line.decode('utf-8', 'ignore')
                     data = json.loads(decoded_line)
                     all_data.append(data)
@@ -74,7 +72,6 @@ def start_fine_tuning(training_file_path, validation_file_path):
         print(f"Error during fine-tuning: {e}")
 
 
-# Replace "click_a_button" with actual logic triggered by your button/event
 if __name__ == "__main__":
     training_file_path, validation_file_path = combine_and_split_data(cleaned_chat_history_path)
     start_fine_tuning(training_file_path, validation_file_path)
